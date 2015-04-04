@@ -89,7 +89,7 @@ data.NATIVE_COUNTRY = convertClass2Integer(dataArray{:, 14},tables{8});
 data.LABEL = dataArray{:, 15};
 
 Label = data.LABEL;
-Data = rmfield(data,'LABEL');
+data = rmfield(data,'LABEL');
 
 for i = 1:length(Label) 
    if strcmp(Label{i},'<=50K') == true
@@ -100,5 +100,10 @@ for i = 1:length(Label)
 end
 Label = cell2mat(Label);
 
+field = fields(data);
+Data = [];
+for j = 1:length(field)
+    Data = [Data,data.(field{j})];
+end    
 %% Clear temporary variables
 clearvars filename delimiter formatSpec fileID dataArray ans;
