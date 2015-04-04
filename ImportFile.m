@@ -73,19 +73,19 @@ end
 
 %% Allocate imported array to column variable names
 data.AGE = dataArray{:, 1};
-data.WORKCLASS = cell2mat(convertClass2Integer(dataArray{:, 2},tables{1}));
+data.WORKCLASS = convertClass2Integer(dataArray{:, 2},tables{1});
 data.FNLWGT = dataArray{:, 3};
-data.EDUCATION = cell2mat(convertClass2Integer(dataArray{:, 4},tables{2}));
+data.EDUCATION = convertClass2Integer(dataArray{:, 4},tables{2});
 data.EDUCATION_NUM = dataArray{:, 5};
-data.MARITAL = cell2mat(convertClass2Integer(dataArray{:, 6},tables{3}));
-data.OCCUPATION = cell2mat(convertClass2Integer(dataArray{:, 7},tables{4}));
-data.RELATIONSHIP = cell2mat(convertClass2Integer(dataArray{:, 8},tables{5}));
-data.RACE = cell2mat(convertClass2Integer(dataArray{:, 9},tables{6}));
-data.SEX = cell2mat(convertClass2Integer(dataArray{:, 10},tables{7}));
+data.MARITAL = convertClass2Integer(dataArray{:, 6},tables{3});
+data.OCCUPATION = convertClass2Integer(dataArray{:, 7},tables{4});
+data.RELATIONSHIP = convertClass2Integer(dataArray{:, 8},tables{5});
+data.RACE = convertClass2Integer(dataArray{:, 9},tables{6});
+data.SEX = convertClass2Integer(dataArray{:, 10},tables{7});
 data.CAPITAL_GAIN = dataArray{:, 11};
 data.CAPITAL_LOSS = dataArray{:, 12};
 data.HOURS_PER_WEEK = dataArray{:, 13};
-data.NATIVE_COUNTRY = cell2mat(convertClass2Integer(dataArray{:, 14},tables{8}));
+data.NATIVE_COUNTRY = convertClass2Integer(dataArray{:, 14},tables{8});
 data.LABEL = dataArray{:, 15};
 
 Label = data.LABEL;
