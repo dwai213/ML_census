@@ -1,5 +1,5 @@
 %% Import data from text file.
-function [Data,Label] = ImportFile(FileName)
+% function [Data,Label] = ImportFile(FileName)
 
 % Script for importing data from the following text file:
 %
@@ -92,7 +92,7 @@ Label = data.LABEL;
 data = rmfield(data,'LABEL');
 
 for i = 1:length(Label) 
-   if strcmp(Label{i},'<=50K') == true
+   if strcmp(Label{i},'<=50K') || strcmp(Label{i},'<=50K.')
        Label{i} = 0;  
    else
        Label{i} = 1;
