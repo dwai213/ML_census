@@ -1,5 +1,6 @@
 %% Logistic Regression Classifier
-% As in homework, using l-2 logistic regression
+% Using l-2 regulator logistic regression classifier
+% What can be done: tuning params, different regulator, features(maybe?)
 %**************************************************************************
 clear all
 clc
