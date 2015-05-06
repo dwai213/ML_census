@@ -3,6 +3,6 @@ function error = errorRate(predictions,labels)
 % Given a vector or predictions and the correct labels, returns
 % the error rate
 
-error = sum((predictions == labels))/length(labels);
+error = 1-sum((predictions == labels))/length(labels);
 
 end
