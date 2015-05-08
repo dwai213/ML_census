@@ -7,9 +7,9 @@ load 'Train_data.mat'
 %**************************************************************************
 
 % Data preprocessing(zero mean and identity variance)
-traindata = Train(:,[5 6]);
+traindata = Train;
 trainlabel = TrainLabel;
-test = Test(:,[5 6]);
+test = Test;
 traindata = zscore(traindata);
 
 test = zscore(test);
@@ -40,7 +40,7 @@ idx = randperm(32560);
 Error = [];                                     % Cross-validation error
 Error_eta = [];                                 % Error of different learning rate
 NumSet = 10;                                    % #-fold cross validation
-n_hid = [200];
+n_hid = [500];
 lambda = [0.01 0.1 1];
 for learnRate = 1: length(eta)
     for penalterm = 1:length(lambda)
@@ -78,7 +78,7 @@ BestLearningRate = eta(BestLearningRate);
 Penalty = lambda(Penalty);
 
 % Save parameters
-save('5_6valNN2.mat','Error_eta','BestLearningRate','Penalty','validationTime','n_hid');
+save('500valNN2.mat','Error_eta','BestLearningRate','Penalty','validationTime','n_hid');
 
 %% Training on whole training set
 maxiter = 100000;
@@ -91,9 +91,9 @@ tic;
 predict = NNpredict(W,traindata);
 error = sum(predict~=trainlabel)/size(traindata,1);
 trainingTime = toc;
-save('5_6NNtrain2.mat','W','w','error','trainingTime','n_hid');
+save('500NNtrain2.mat','W','w','error','trainingTime','n_hid');
 
 %% Testing data
 test_label = NNpredict(W,test);
 error = sum(test_label~=TestLabel)/size(test,1);
-save('5_6NN_test2.mat','error','test_label')
+save('500NN_test2.mat','error','test_label')
