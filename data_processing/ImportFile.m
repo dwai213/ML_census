@@ -52,7 +52,7 @@ classes = cell(8,1);
 %workclass
 classes{1} = {'?','Private', 'Self-emp-not-inc', 'Self-emp-inc', 'Federal-gov', 'Local-gov', 'State-gov', 'Without-pay', 'Never-worked'};
 %education
-classes{2} = {'?','Bachelors', 'Some-college', '11th', 'HS-grad', 'Prof-school', 'Assoc-acdm', 'Assoc-voc', '9th', '7th-8th', '12th', 'Masters', '1st-4th', '10th', 'Doctorate', '5th-6th', 'Preschool'};
+classes{2} = {'Doctorate','Masters','Bachelors', 'Some-college','HS-grad','Prof-school','Assoc-acdm','Assoc-voc','12th','11th','10th','9th','7th-8th','5th-6th','1st-4th','Preschool','?'};
 %marital-status
 classes{3} = {'?','Married-civ-spouse', 'Divorced', 'Never-married', 'Separated', 'Widowed', 'Married-spouse-absent', 'Married-AF-spouse'};
 %occupation

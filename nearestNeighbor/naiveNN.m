@@ -1,12 +1,14 @@
 %% Import data
-cd /Users/dwai/Documents/Box/MATLAB/Graduate/CS289A/ML_census
-[Data Label] = ImportFile('adult_data');
+%%
+clear all, clc, close all
+cd /Users/dwai/Documents/ML_census/
+load Train_data.mat
 
 %% Partition to test and training data
-test_data = [Data(1:6500,1) Data(1:6500,13)];
-test_label = Label(1:6500);
-training_data = [Data(6501:end,1) Data(6501:end,13)];
-training_label = Label(6501:end);
+test_data = [Train(1:6500,1) Train(1:6500,13)];
+test_label = TrainLabel(1:6500);
+training_data = [Train(6501:end,1) Train(6501:end,13)];
+training_label = TrainLabel(6501:end);
 
 %% Plot Training Data
 

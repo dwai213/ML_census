@@ -1,67 +1,1887 @@
 digraph d {
-nodesep=0.1
+nodesep=0.2
 node [color=Blue,fontname=Arial,shape=box]
 edge [color=Turquoise, style=dashed]
-x0[label="'marital-status' <= 1.81 \n pos: 6671\nneg: 20890"]
-x1[label="'education-num' <= 10.43 \n pos: 5686\nneg: 6971"]
+x0[label="'workclass' <= 1.72 \n pos: 6583\nneg: 20978"]
+x1[label="'marital-status' <= 1.83 \n pos: 4284\nneg: 16551"]
 x0 -> x1 
-x2[label="'capital-gain' <= 3148.88 \n pos: 985\nneg: 13919"]
+x2[label="'marital-status' <= 1.69 \n pos: 2299\nneg: 4427"]
 x0 -> x2 
-x3[label="'education-num' <= 8.77 \n pos: 2475\nneg: 5413"]
+x3[label="'education-num' <= 10.25 \n pos: 3676\nneg: 5186"]
 x1 -> x3 
-x4[label="'capital-gain' <= 2496.43 \n pos: 3211\nneg: 1558"]
+x4[label="'capital-gain' <= 3001.54 \n pos: 608\nneg: 11365"]
 x1 -> x4 
-x5[label="'education-num' <= 10.87 \n pos: 692\nneg: 13713"]
+x5[label="'education-num' <= 10.93 \n pos: 1975\nneg: 1908"]
 x2 -> x5 
-x6[label="'capital-gain' <= 13031.72 \n pos: 293\nneg: 206"]
+x6[label="'capital-gain' <= 4425.80 \n pos: 324\nneg: 2519"]
 x2 -> x6 
-x7[label="'capital-gain' <= 1162.02 \n pos: 170\nneg: 1269"]
+x7[label="'education-num' <= 8.79 \n pos: 1747\nneg: 4152"]
 x3 -> x7 
-x8[label="'capital-gain' <= 1296.83 \n pos: 2305\nneg: 4144"]
+x8[label="'education-num' <= 12.89 \n pos: 1929\nneg: 1034"]
 x3 -> x8 
-x9[label="'capital-loss' <= 181.90 \n pos: 2489\nneg: 1482"]
+x9[label="'education-num' <= 10.64 \n pos: 431\nneg: 11204"]
 x4 -> x9 
-x10[label="'capital-gain' <= 12894.15 \n pos: 722\nneg: 76"]
+x10[label="'capital-gain' <= 12669.40 \n pos: 177\nneg: 161"]
 x4 -> x10 
-x11[label="'hours-per-week' <= 41.41 \n pos: 232\nneg: 10332"]
+x11[label="'capital-gain' <= 1420.41 \n pos: 768\nneg: 1333"]
 x5 -> x11 
-x12[label="'hours-per-week' <= 43.67 \n pos: 460\nneg: 3381"]
+x12[label="'capital-gain' <= 3080.11 \n pos: 1207\nneg: 575"]
 x5 -> x12 
-x13[label="'capital-gain' <= 6478.79 \n pos: 130\nneg: 202"]
+x13[label="'education-num' <= 11.64 \n pos: 219\nneg: 2484"]
 x6 -> x13 
-x14[label="'capital-gain' <= 32444.13 \n pos: 163\nneg: 4"]
+x14[label="'workclass' <= 3.97 \n pos: 105\nneg: 35"]
 x6 -> x14 
-x15[label="pos: 134\n neg: 1194"]
+x15[label="'capital-gain' <= 1563.94 \n pos: 102\nneg: 987"]
 x7 -> x15 
-x16[label="pos: 36\n neg: 75"]
+x16[label="'capital-gain' <= 1011.85 \n pos: 1645\nneg: 3165"]
 x7 -> x16 
-x17[label="pos: 1905\n neg: 3904"]
+x17[label="'capital-gain' <= 1099.85 \n pos: 303\nneg: 390"]
 x8 -> x17 
-x18[label="pos: 400\n neg: 240"]
+x18[label="'capital-gain' <= 2394.02 \n pos: 1626\nneg: 644"]
 x8 -> x18 
-x19[label="pos: 2119\n neg: 1425"]
+x19[label="'age' <= 38.47 \n pos: 160\nneg: 8776"]
 x9 -> x19 
-x20[label="pos: 370\n neg: 57"]
+x20[label="'hours-per-week' <= 43.67 \n pos: 271\nneg: 2428"]
 x9 -> x20 
-x21[label="pos: 376\n neg: 75"]
+x21[label="'capital-gain' <= 6842.84 \n pos: 81\nneg: 159"]
 x10 -> x21 
-x22[label="pos: 346\n neg: 1"]
+x22[label="'relationship' <= 3.08 \n pos: 96\nneg: 2"]
 x10 -> x22 
-x23[label="pos: 106\n neg: 8641"]
+x23[label="'education-num' <= 8.95 \n pos: 611\nneg: 1261"]
 x11 -> x23 
-x24[label="pos: 126\n neg: 1691"]
+x24[label="'capital-gain' <= 8232.07 \n pos: 157\nneg: 72"]
 x11 -> x24 
-x25[label="pos: 192\n neg: 2515"]
+x25[label="'education-num' <= 13.25 \n pos: 921\nneg: 549"]
 x12 -> x25 
-x26[label="pos: 268\n neg: 866"]
+x26[label="'occupation' <= 6.78 \n pos: 286\nneg: 26"]
 x12 -> x26 
-x27[label="pos: 32\n neg: 161"]
+x27[label="'hours-per-week' <= 43.29 \n pos: 63\nneg: 1615"]
 x13 -> x27 
-x28[label="pos: 98\n neg: 41"]
+x28[label="'workclass' <= 4.06 \n pos: 156\nneg: 869"]
 x13 -> x28 
-x29[label="pos: 138\n neg: 0"]
+x29[label="'hours-per-week' <= 50.04 \n pos: 62\nneg: 7"]
 x14 -> x29 
-x30[label="pos: 25\n neg: 4"]
+x30[label="'capital-gain' <= 10019.06 \n pos: 43\nneg: 28"]
 x14 -> x30 
+x31[label="'native-country' <= 4.28 \n pos: 81\nneg: 953"]
+x15 -> x31 
+x32[label="'education-num' <= 5.81 \n pos: 21\nneg: 34"]
+x15 -> x32 
+x33[label="'age' <= 42.05 \n pos: 1359\nneg: 2991"]
+x16 -> x33 
+x34[label="'capital-gain' <= 7022.96 \n pos: 286\nneg: 174"]
+x16 -> x34 
+x35[label="'age' <= 39.80 \n pos: 229\nneg: 364"]
+x17 -> x35 
+x36[label="'capital-gain' <= 5878.26 \n pos: 74\nneg: 26"]
+x17 -> x36 
+x37[label="'capital-loss' <= 192.54 \n pos: 1300\nneg: 608"]
+x18 -> x37 
+x38[label="'capital-gain' <= 13470.64 \n pos: 326\nneg: 36"]
+x18 -> x38 
+x39[label="'hours-per-week' <= 42.43 \n pos: 41\nneg: 6260"]
+x19 -> x39 
+x40[label="'hours-per-week' <= 42.06 \n pos: 119\nneg: 2516"]
+x19 -> x40 
+x41[label="'education-num' <= 13.02 \n pos: 111\nneg: 1845"]
+x20 -> x41 
+x42[label="'marital-status' <= 2.76 \n pos: 160\nneg: 583"]
+x20 -> x42 
+x43[label="'capital-gain' <= 4583.93 \n pos: 11\nneg: 133"]
+x21 -> x43 
+x44[label="'capital-gain' <= 8283.48 \n pos: 70\nneg: 26"]
+x21 -> x44 
+x45[label="'hours-per-week' <= 27.62 \n pos: 4\nneg: 2"]
+x22 -> x45 
+x46[label="pos: 92\n neg: 0"]
+x22 -> x46 
+x47[label="'education-num' <= 5.15 \n pos: 33\nneg: 214"]
+x23 -> x47 
+x48[label="'capital-loss' <= 129.25 \n pos: 578\nneg: 1047"]
+x23 -> x48 
+x49[label="'capital-gain' <= 5040.16 \n pos: 102\nneg: 71"]
+x24 -> x49 
+x50[label="'occupation' <= 3.98 \n pos: 55\nneg: 1"]
+x24 -> x50 
+x51[label="'capital-loss' <= 180.21 \n pos: 512\nneg: 418"]
+x25 -> x51 
+x52[label="'capital-loss' <= 229.61 \n pos: 409\nneg: 131"]
+x25 -> x52 
+x53[label="'capital-gain' <= 15585.96 \n pos: 257\nneg: 12"]
+x26 -> x53 
+x54[label="'relationship' <= 2.86 \n pos: 29\nneg: 14"]
+x26 -> x54 
+x55[label="'education-num' <= 9.39 \n pos: 30\nneg: 1296"]
+x27 -> x55 
+x56[label="'capital-loss' <= 194.01 \n pos: 33\nneg: 319"]
+x27 -> x56 
+x57[label="'relationship' <= 4.25 \n pos: 108\nneg: 327"]
+x28 -> x57 
+x58[label="'age' <= 42.32 \n pos: 48\nneg: 542"]
+x28 -> x58 
+x59[label="'workclass' <= 2.67 \n pos: 49\nneg: 3"]
+x29 -> x59 
+x60[label="'capital-gain' <= 55313.83 \n pos: 13\nneg: 4"]
+x29 -> x60 
+x61[label="'capital-gain' <= 6211.69 \n pos: 20\nneg: 28"]
+x30 -> x61 
+x62[label="pos: 23\n neg: 0"]
+x30 -> x62 
+x63[label="'hours-per-week' <= 41.87 \n pos: 75\nneg: 705"]
+x31 -> x63 
+x64[label="'relationship' <= 2.61 \n pos: 6\nneg: 248"]
+x31 -> x64 
+x65[label="'capital-gain' <= 4947.48 \n pos: 2\nneg: 25"]
+x32 -> x65 
+x66[label="'education-num' <= 6.94 \n pos: 19\nneg: 9"]
+x32 -> x66 
+x67[label="'age' <= 33.76 \n pos: 637\nneg: 1891"]
+x33 -> x67 
+x68[label="'hours-per-week' <= 41.48 \n pos: 722\nneg: 1100"]
+x33 -> x68 
+x69[label="'capital-gain' <= 3988.55 \n pos: 90\nneg: 174"]
+x34 -> x69 
+x70[label="pos: 196\n neg: 0"]
+x34 -> x70 
+x71[label="'native-country' <= 2.08 \n pos: 96\nneg: 236"]
+x35 -> x71 
+x72[label="'capital-loss' <= 120.56 \n pos: 133\nneg: 128"]
+x35 -> x72 
+x73[label="'hours-per-week' <= 44.43 \n pos: 26\nneg: 25"]
+x36 -> x73 
+x74[label="'hours-per-week' <= 52.08 \n pos: 48\nneg: 1"]
+x36 -> x74 
+x75[label="'occupation' <= 4.82 \n pos: 1079\nneg: 591"]
+x37 -> x75 
+x76[label="'capital-loss' <= 1879.47 \n pos: 221\nneg: 17"]
+x37 -> x76 
+x77[label="'capital-gain' <= 5486.89 \n pos: 156\nneg: 36"]
+x38 -> x77 
+x78[label="pos: 170\n neg: 0"]
+x38 -> x78 
+x79[label="'age' <= 29.21 \n pos: 17\nneg: 5379"]
+x39 -> x79 
+x80[label="'native-country' <= 1.82 \n pos: 24\nneg: 881"]
+x39 -> x80 
+x81[label="'education-num' <= 8.71 \n pos: 59\nneg: 2053"]
+x40 -> x81 
+x82[label="'education-num' <= 9.02 \n pos: 60\nneg: 463"]
+x40 -> x82 
+x83[label="'age' <= 37.50 \n pos: 62\nneg: 1632"]
+x41 -> x83 
+x84[label="'hours-per-week' <= 36.66 \n pos: 49\nneg: 213"]
+x41 -> x84 
+x85[label="'sex' <= 1.54 \n pos: 74\nneg: 140"]
+x42 -> x85 
+x86[label="'relationship' <= 3.97 \n pos: 86\nneg: 443"]
+x42 -> x86 
+x87[label="pos: 0\n neg: 80"]
+x43 -> x87 
+x88[label="'occupation' <= 5.07 \n pos: 11\nneg: 53"]
+x43 -> x88 
+x89[label="'capital-gain' <= 7185.19 \n pos: 2\nneg: 26"]
+x44 -> x89 
+x90[label="pos: 68\n neg: 0"]
+x44 -> x90 
+x91[label="pos: 0\n neg: 2"]
+x45 -> x91 
+x92[label="pos: 4\n neg: 0"]
+x45 -> x92 
+x93[label="'capital-loss' <= 194.54 \n pos: 24\nneg: 101"]
+x47 -> x93 
+x94[label="'race' <= 1.54 \n pos: 9\nneg: 113"]
+x47 -> x94 
+x95[label="'age' <= 45.69 \n pos: 522\nneg: 1006"]
+x48 -> x95 
+x96[label="'capital-loss' <= 1901.38 \n pos: 56\nneg: 41"]
+x48 -> x96 
+x97[label="'education-num' <= 8.75 \n pos: 11\nneg: 71"]
+x49 -> x97 
+x98[label="pos: 91\n neg: 0"]
+x49 -> x98 
+x99[label="'age' <= 54.67 \n pos: 6\nneg: 1"]
+x50 -> x99 
+x100[label="pos: 49\n neg: 0"]
+x50 -> x100 
+x101[label="'workclass' <= 3.70 \n pos: 446\nneg: 395"]
+x51 -> x101 
+x102[label="'workclass' <= 3.79 \n pos: 66\nneg: 23"]
+x51 -> x102 
+x103[label="'capital-gain' <= 40.26 \n pos: 325\nneg: 127"]
+x52 -> x103 
+x104[label="'capital-loss' <= 1829.38 \n pos: 84\nneg: 4"]
+x52 -> x104 
+x105[label="'capital-gain' <= 7923.77 \n pos: 204\nneg: 12"]
+x53 -> x105 
+x106[label="pos: 53\n neg: 0"]
+x53 -> x106 
+x107[label="pos: 4\n neg: 0"]
+x54 -> x107 
+x108[label="'occupation' <= 10.35 \n pos: 25\nneg: 14"]
+x54 -> x108 
+x109[label="'sex' <= 1.74 \n pos: 7\nneg: 716"]
+x55 -> x109 
+x110[label="'sex' <= 1.52 \n pos: 23\nneg: 580"]
+x55 -> x110 
+x111[label="'hours-per-week' <= 57.47 \n pos: 27\nneg: 312"]
+x56 -> x111 
+x112[label="'occupation' <= 5.40 \n pos: 6\nneg: 7"]
+x56 -> x112 
+x113[label="'education-num' <= 13.71 \n pos: 72\nneg: 284"]
+x57 -> x113 
+x114[label="'hours-per-week' <= 44.09 \n pos: 36\nneg: 43"]
+x57 -> x114 
+x115[label="'hours-per-week' <= 43.01 \n pos: 16\nneg: 347"]
+x58 -> x115 
+x116[label="'marital-status' <= 2.82 \n pos: 32\nneg: 195"]
+x58 -> x116 
+x117[label="pos: 32\n neg: 0"]
+x59 -> x117 
+x118[label="'capital-gain' <= 11198.70 \n pos: 17\nneg: 3"]
+x59 -> x118 
+x119[label="'workclass' <= 2.50 \n pos: 3\nneg: 4"]
+x60 -> x119 
+x120[label="pos: 10\n neg: 0"]
+x60 -> x120 
+x121[label="'capital-gain' <= 4964.33 \n pos: 8\nneg: 24"]
+x61 -> x121 
+x122[label="'capital-gain' <= 7721.67 \n pos: 12\nneg: 4"]
+x61 -> x122 
+x123[label="'capital-loss' <= 153.05 \n pos: 46\nneg: 551"]
+x63 -> x123 
+x124[label="'hours-per-week' <= 52.15 \n pos: 29\nneg: 154"]
+x63 -> x124 
+x125[label="'age' <= 37.62 \n pos: 2\nneg: 27"]
+x64 -> x125 
+x126[label="'hours-per-week' <= 40.28 \n pos: 4\nneg: 221"]
+x64 -> x126 
+x127[label="pos: 0\n neg: 24"]
+x65 -> x127 
+x128[label="'age' <= 61.00 \n pos: 2\nneg: 1"]
+x65 -> x128 
+x129[label="'capital-gain' <= 51963.40 \n pos: 2\nneg: 5"]
+x66 -> x129 
+x130[label="'capital-gain' <= 4638.57 \n pos: 17\nneg: 4"]
+x66 -> x130 
+x131[label="'age' <= 28.91 \n pos: 205\nneg: 1052"]
+x67 -> x131 
+x132[label="'education-num' <= 9.39 \n pos: 432\nneg: 839"]
+x67 -> x132 
+x133[label="'hours-per-week' <= 36.74 \n pos: 445\nneg: 849"]
+x68 -> x133 
+x134[label="'education-num' <= 9.43 \n pos: 277\nneg: 251"]
+x68 -> x134 
+x135[label="'capital-gain' <= 3098.66 \n pos: 23\nneg: 123"]
+x69 -> x135 
+x136[label="'workclass' <= 0.96 \n pos: 67\nneg: 51"]
+x69 -> x136 
+x137[label="'hours-per-week' <= 42.30 \n pos: 95\nneg: 205"]
+x71 -> x137 
+x138[label="'hours-per-week' <= 45.81 \n pos: 1\nneg: 31"]
+x71 -> x138 
+x139[label="'hours-per-week' <= 42.19 \n pos: 118\nneg: 126"]
+x72 -> x139 
+x140[label="'capital-loss' <= 1794.30 \n pos: 15\nneg: 2"]
+x72 -> x140 
+x141[label="'age' <= 43.74 \n pos: 9\nneg: 24"]
+x73 -> x141 
+x142[label="'hours-per-week' <= 74.65 \n pos: 17\nneg: 1"]
+x73 -> x142 
+x143[label="pos: 43\n neg: 0"]
+x74 -> x143 
+x144[label="'age' <= 55.50 \n pos: 5\nneg: 1"]
+x74 -> x144 
+x145[label="'hours-per-week' <= 40.28 \n pos: 297\nneg: 254"]
+x75 -> x145 
+x146[label="'occupation' <= 6.16 \n pos: 782\nneg: 337"]
+x75 -> x146 
+x147[label="'education-num' <= 13.40 \n pos: 24\nneg: 10"]
+x76 -> x147 
+x148[label="'hours-per-week' <= 50.39 \n pos: 197\nneg: 7"]
+x76 -> x148 
+x149[label="'occupation' <= 4.92 \n pos: 38\nneg: 33"]
+x77 -> x149 
+x150[label="'workclass' <= 0.48 \n pos: 118\nneg: 3"]
+x77 -> x150 
+x151[label="'education-num' <= 9.40 \n pos: 1\nneg: 4102"]
+x79 -> x151 
+x152[label="'hours-per-week' <= 38.48 \n pos: 16\nneg: 1277"]
+x79 -> x152 
+x153[label="'education-num' <= 8.53 \n pos: 24\nneg: 790"]
+x80 -> x153 
+x154[label="pos: 0\n neg: 91"]
+x80 -> x154 
+x155[label="'marital-status' <= 2.76 \n pos: 5\nneg: 491"]
+x81 -> x155 
+x156[label="'occupation' <= 5.09 \n pos: 54\nneg: 1562"]
+x81 -> x156 
+x157[label="'capital-loss' <= 330.98 \n pos: 25\nneg: 319"]
+x82 -> x157 
+x158[label="'hours-per-week' <= 51.35 \n pos: 35\nneg: 144"]
+x82 -> x158 
+x159[label="'relationship' <= 3.91 \n pos: 18\nneg: 1170"]
+x83 -> x159 
+x160[label="'education-num' <= 12.58 \n pos: 44\nneg: 462"]
+x83 -> x160 
+x161[label="'capital-loss' <= 300.40 \n pos: 5\nneg: 82"]
+x84 -> x161 
+x162[label="'workclass' <= 0.98 \n pos: 44\nneg: 131"]
+x84 -> x162 
+x163[label="'education-num' <= 12.99 \n pos: 17\nneg: 96"]
+x85 -> x163 
+x164[label="'capital-loss' <= 265.54 \n pos: 57\nneg: 44"]
+x85 -> x164 
+x165[label="'relationship' <= 2.50 \n pos: 1\nneg: 69"]
+x86 -> x165 
+x166[label="'education-num' <= 13.17 \n pos: 85\nneg: 374"]
+x86 -> x166 
+x167[label="'hours-per-week' <= 41.71 \n pos: 9\nneg: 15"]
+x88 -> x167 
+x168[label="'hours-per-week' <= 35.66 \n pos: 2\nneg: 38"]
+x88 -> x168 
+x169[label="pos: 0\n neg: 22"]
+x89 -> x169 
+x170[label="'education-num' <= 11.38 \n pos: 2\nneg: 4"]
+x89 -> x170 
+x171[label="'age' <= 49.87 \n pos: 20\nneg: 97"]
+x93 -> x171 
+x172[label="'education-num' <= 4.25 \n pos: 4\nneg: 4"]
+x93 -> x172 
+x173[label="'capital-loss' <= 149.68 \n pos: 7\nneg: 106"]
+x94 -> x173 
+x174[label="'race' <= 4.50 \n pos: 2\nneg: 7"]
+x94 -> x174 
+x175[label="'workclass' <= 3.69 \n pos: 238\nneg: 573"]
+x95 -> x175 
+x176[label="'native-country' <= 1.30 \n pos: 284\nneg: 433"]
+x95 -> x176 
+x177[label="'age' <= 48.39 \n pos: 19\nneg: 24"]
+x96 -> x177 
+x178[label="'capital-loss' <= 2090.06 \n pos: 37\nneg: 17"]
+x96 -> x178 
+x179[label="pos: 0\n neg: 20"]
+x97 -> x179 
+x180[label="'hours-per-week' <= 49.10 \n pos: 11\nneg: 51"]
+x97 -> x180 
+x181[label="pos: 4\n neg: 0"]
+x99 -> x181 
+x182[label="'age' <= 65.50 \n pos: 2\nneg: 1"]
+x99 -> x182 
+x183[label="'occupation' <= 5.28 \n pos: 204\nneg: 219"]
+x101 -> x183 
+x184[label="'relationship' <= 2.71 \n pos: 242\nneg: 176"]
+x101 -> x184 
+x185[label="'hours-per-week' <= 56.24 \n pos: 49\nneg: 6"]
+x102 -> x185 
+x186[label="'capital-loss' <= 1825.21 \n pos: 17\nneg: 17"]
+x102 -> x186 
+x187[label="'relationship' <= 2.83 \n pos: 325\nneg: 123"]
+x103 -> x187 
+x188[label="pos: 0\n neg: 4"]
+x103 -> x188 
+x189[label="'age' <= 58.50 \n pos: 3\nneg: 2"]
+x104 -> x189 
+x190[label="'relationship' <= 1.88 \n pos: 81\nneg: 2"]
+x104 -> x190 
+x191[label="'capital-gain' <= 5521.44 \n pos: 106\nneg: 10"]
+x105 -> x191 
+x192[label="'age' <= 69.81 \n pos: 98\nneg: 2"]
+x105 -> x192 
+x193[label="'hours-per-week' <= 42.85 \n pos: 14\nneg: 11"]
+x108 -> x193 
+x194[label="'capital-gain' <= 5445.18 \n pos: 11\nneg: 3"]
+x108 -> x194 
+x195[label="pos: 0\n neg: 375"]
+x109 -> x195 
+x196[label="'marital-status' <= 3.41 \n pos: 7\nneg: 341"]
+x109 -> x196 
+x197[label="'education-num' <= 10.07 \n pos: 8\nneg: 358"]
+x110 -> x197 
+x198[label="'relationship' <= 3.79 \n pos: 15\nneg: 222"]
+x110 -> x198 
+x199[label="'marital-status' <= 2.62 \n pos: 9\nneg: 200"]
+x111 -> x199 
+x200[label="'education-num' <= 9.58 \n pos: 18\nneg: 112"]
+x111 -> x200 
+x201[label="'occupation' <= 3.57 \n pos: 3\nneg: 7"]
+x112 -> x201 
+x202[label="pos: 3\n neg: 0"]
+x112 -> x202 
+x203[label="'sex' <= 1.73 \n pos: 27\nneg: 210"]
+x113 -> x203 
+x204[label="'education-num' <= 14.68 \n pos: 45\nneg: 74"]
+x113 -> x204 
+x205[label="'relationship' <= 5.79 \n pos: 12\nneg: 33"]
+x114 -> x205 
+x206[label="'relationship' <= 5.80 \n pos: 24\nneg: 10"]
+x114 -> x206 
+x207[label="'education-num' <= 12.92 \n pos: 6\nneg: 261"]
+x115 -> x207 
+x208[label="'marital-status' <= 3.16 \n pos: 10\nneg: 86"]
+x115 -> x208 
+x209[label="'sex' <= 1.54 \n pos: 11\nneg: 107"]
+x116 -> x209 
+x210[label="'education-num' <= 14.20 \n pos: 21\nneg: 88"]
+x116 -> x210 
+x211[label="'capital-gain' <= 6864.97 \n pos: 5\nneg: 3"]
+x118 -> x211 
+x212[label="pos: 12\n neg: 0"]
+x118 -> x212 
+x213[label="pos: 0\n neg: 4"]
+x119 -> x213 
+x214[label="pos: 3\n neg: 0"]
+x119 -> x214 
+x215[label="'age' <= 43.35 \n pos: 8\nneg: 14"]
+x121 -> x215 
+x216[label="pos: 0\n neg: 10"]
+x121 -> x216 
+x217[label="'capital-gain' <= 7139.50 \n pos: 1\nneg: 4"]
+x122 -> x217 
+x218[label="pos: 11\n neg: 0"]
+x122 -> x218 
+x219[label="'age' <= 49.07 \n pos: 40\nneg: 536"]
+x123 -> x219 
+x220[label="'occupation' <= 5.23 \n pos: 6\nneg: 15"]
+x123 -> x220 
+x221[label="'sex' <= 1.95 \n pos: 24\nneg: 91"]
+x124 -> x221 
+x222[label="'relationship' <= 3.01 \n pos: 5\nneg: 63"]
+x124 -> x222 
+x223[label="pos: 0\n neg: 14"]
+x125 -> x223 
+x224[label="'native-country' <= 20.44 \n pos: 2\nneg: 13"]
+x125 -> x224 
+x225[label="'hours-per-week' <= 39.32 \n pos: 4\nneg: 186"]
+x126 -> x225 
+x226[label="pos: 0\n neg: 35"]
+x126 -> x226 
+x227[label="pos: 2\n neg: 0"]
+x128 -> x227 
+x228[label="pos: 0\n neg: 1"]
+x128 -> x228 
+x229[label="pos: 0\n neg: 5"]
+x129 -> x229 
+x230[label="pos: 2\n neg: 0"]
+x129 -> x230 
+x231[label="'age' <= 39.45 \n pos: 7\nneg: 4"]
+x130 -> x231 
+x232[label="pos: 10\n neg: 0"]
+x130 -> x232 
+x233[label="'education-num' <= 9.46 \n pos: 68\nneg: 498"]
+x131 -> x233 
+x234[label="'race' <= 1.22 \n pos: 137\nneg: 554"]
+x131 -> x234 
+x235[label="'capital-loss' <= 162.91 \n pos: 233\nneg: 565"]
+x132 -> x235 
+x236[label="'capital-loss' <= 123.67 \n pos: 199\nneg: 274"]
+x132 -> x236 
+x237[label="'age' <= 55.84 \n pos: 47\nneg: 224"]
+x133 -> x237 
+x238[label="'capital-loss' <= 133.08 \n pos: 398\nneg: 625"]
+x133 -> x238 
+x239[label="'sex' <= 1.97 \n pos: 142\nneg: 158"]
+x134 -> x239 
+x240[label="'occupation' <= 5.44 \n pos: 135\nneg: 93"]
+x134 -> x240 
+x241[label="pos: 0\n neg: 62"]
+x135 -> x241 
+x242[label="'capital-gain' <= 3300.86 \n pos: 23\nneg: 61"]
+x135 -> x242 
+x243[label="pos: 6\n neg: 0"]
+x136 -> x243 
+x244[label="'occupation' <= 4.84 \n pos: 61\nneg: 51"]
+x136 -> x244 
+x245[label="'relationship' <= 2.27 \n pos: 49\nneg: 145"]
+x137 -> x245 
+x246[label="'hours-per-week' <= 52.02 \n pos: 46\nneg: 60"]
+x137 -> x246 
+x247[label="pos: 0\n neg: 25"]
+x138 -> x247 
+x248[label="'native-country' <= 12.17 \n pos: 1\nneg: 6"]
+x138 -> x248 
+x249[label="'hours-per-week' <= 37.02 \n pos: 72\nneg: 89"]
+x139 -> x249 
+x250[label="'education-num' <= 11.42 \n pos: 46\nneg: 37"]
+x139 -> x250 
+x251[label="pos: 0\n neg: 2"]
+x140 -> x251 
+x252[label="pos: 15\n neg: 0"]
+x140 -> x252 
+x253[label="'native-country' <= 6.00 \n pos: 2\nneg: 14"]
+x141 -> x253 
+x254[label="'age' <= 50.06 \n pos: 7\nneg: 10"]
+x141 -> x254 
+x255[label="pos: 17\n neg: 0"]
+x142 -> x255 
+x256[label="pos: 0\n neg: 1"]
+x142 -> x256 
+x257[label="pos: 5\n neg: 0"]
+x144 -> x257 
+x258[label="pos: 0\n neg: 1"]
+x144 -> x258 
+x259[label="'native-country' <= 2.21 \n pos: 155\nneg: 185"]
+x145 -> x259 
+x260[label="'race' <= 1.25 \n pos: 142\nneg: 69"]
+x145 -> x260 
+x261[label="'occupation' <= 5.57 \n pos: 702\nneg: 251"]
+x146 -> x261 
+x262[label="'race' <= 1.28 \n pos: 80\nneg: 86"]
+x146 -> x262 
+x263[label="'age' <= 39.94 \n pos: 24\nneg: 5"]
+x147 -> x263 
+x264[label="pos: 0\n neg: 5"]
+x147 -> x264 
+x265[label="'workclass' <= 0.48 \n pos: 150\nneg: 1"]
+x148 -> x265 
+x266[label="'occupation' <= 4.79 \n pos: 47\nneg: 6"]
+x148 -> x266 
+x267[label="'age' <= 36.11 \n pos: 16\nneg: 6"]
+x149 -> x267 
+x268[label="'hours-per-week' <= 45.02 \n pos: 22\nneg: 27"]
+x149 -> x268 
+x269[label="'hours-per-week' <= 30.25 \n pos: 4\nneg: 3"]
+x150 -> x269 
+x270[label="pos: 114\n neg: 0"]
+x150 -> x270 
+x271[label="pos: 0\n neg: 2422"]
+x151 -> x271 
+x272[label="'occupation' <= 3.87 \n pos: 1\nneg: 1680"]
+x151 -> x272 
+x273[label="pos: 0\n neg: 363"]
+x152 -> x273 
+x274[label="'relationship' <= 4.14 \n pos: 16\nneg: 914"]
+x152 -> x274 
+x275[label="'hours-per-week' <= 56.53 \n pos: 8\nneg: 104"]
+x153 -> x275 
+x276[label="'native-country' <= 0.93 \n pos: 16\nneg: 686"]
+x153 -> x276 
+x277[label="'education-num' <= 6.09 \n pos: 5\nneg: 178"]
+x155 -> x277 
+x278[label="pos: 0\n neg: 313"]
+x155 -> x278 
+x279[label="'occupation' <= 3.04 \n pos: 42\nneg: 841"]
+x156 -> x279 
+x280[label="'capital-loss' <= 133.31 \n pos: 12\nneg: 721"]
+x156 -> x280 
+x281[label="'sex' <= 1.66 \n pos: 17\nneg: 305"]
+x157 -> x281 
+x282[label="'age' <= 45.54 \n pos: 8\nneg: 14"]
+x157 -> x282 
+x283[label="'capital-gain' <= 89.98 \n pos: 32\nneg: 96"]
+x158 -> x283 
+x284[label="'occupation' <= 4.24 \n pos: 3\nneg: 48"]
+x158 -> x284 
+x285[label="pos: 0\n neg: 398"]
+x159 -> x285 
+x286[label="'hours-per-week' <= 37.95 \n pos: 18\nneg: 772"]
+x159 -> x286 
+x287[label="'sex' <= 1.63 \n pos: 3\nneg: 226"]
+x160 -> x287 
+x288[label="'capital-loss' <= 252.95 \n pos: 41\nneg: 236"]
+x160 -> x288 
+x289[label="'marital-status' <= 2.95 \n pos: 4\nneg: 82"]
+x161 -> x289 
+x290[label="pos: 1\n neg: 0"]
+x161 -> x290 
+x291[label="pos: 0\n neg: 6"]
+x162 -> x291 
+x292[label="'occupation' <= 5.42 \n pos: 44\nneg: 125"]
+x162 -> x292 
+x293[label="'hours-per-week' <= 51.58 \n pos: 2\nneg: 37"]
+x163 -> x293 
+x294[label="'capital-gain' <= 123.75 \n pos: 15\nneg: 59"]
+x163 -> x294 
+x295[label="'education-num' <= 12.86 \n pos: 42\nneg: 44"]
+x164 -> x295 
+x296[label="pos: 15\n neg: 0"]
+x164 -> x296 
+x297[label="pos: 0\n neg: 69"]
+x165 -> x297 
+x298[label="pos: 1\n neg: 0"]
+x165 -> x298 
+x299[label="'education-num' <= 12.73 \n pos: 58\nneg: 309"]
+x166 -> x299 
+x300[label="'relationship' <= 4.14 \n pos: 27\nneg: 65"]
+x166 -> x300 
+x301[label="'age' <= 52.45 \n pos: 3\nneg: 11"]
+x167 -> x301 
+x302[label="'education-num' <= 9.71 \n pos: 6\nneg: 4"]
+x167 -> x302 
+x303[label="'age' <= 39.75 \n pos: 2\nneg: 2"]
+x168 -> x303 
+x304[label="pos: 0\n neg: 36"]
+x168 -> x304 
+x305[label="pos: 0\n neg: 4"]
+x170 -> x305 
+x306[label="pos: 2\n neg: 0"]
+x170 -> x306 
+x307[label="'occupation' <= 5.23 \n pos: 12\nneg: 38"]
+x171 -> x307 
+x308[label="'workclass' <= 3.10 \n pos: 8\nneg: 59"]
+x171 -> x308 
+x309[label="'capital-loss' <= 2044.25 \n pos: 4\nneg: 1"]
+x172 -> x309 
+x310[label="pos: 0\n neg: 3"]
+x172 -> x310 
+x311[label="'age' <= 51.50 \n pos: 6\nneg: 104"]
+x173 -> x311 
+x312[label="'age' <= 40.50 \n pos: 1\nneg: 2"]
+x173 -> x312 
+x313[label="pos: 0\n neg: 3"]
+x174 -> x313 
+x314[label="'education-num' <= 7.12 \n pos: 2\nneg: 4"]
+x174 -> x314 
+x315[label="'workclass' <= 2.36 \n pos: 105\nneg: 329"]
+x175 -> x315 
+x316[label="'race' <= 1.44 \n pos: 133\nneg: 244"]
+x175 -> x316 
+x317[label="'occupation' <= 6.25 \n pos: 280\nneg: 413"]
+x176 -> x317 
+x318[label="'age' <= 52.25 \n pos: 4\nneg: 20"]
+x176 -> x318 
+x319[label="'capital-loss' <= 1738.54 \n pos: 14\nneg: 9"]
+x177 -> x319 
+x320[label="'workclass' <= 3.90 \n pos: 5\nneg: 15"]
+x177 -> x320 
+x321[label="'capital-loss' <= 1965.64 \n pos: 33\nneg: 5"]
+x178 -> x321 
+x322[label="'sex' <= 1.58 \n pos: 4\nneg: 12"]
+x178 -> x322 
+x323[label="'hours-per-week' <= 36.62 \n pos: 5\nneg: 37"]
+x180 -> x323 
+x324[label="'workclass' <= 2.62 \n pos: 6\nneg: 14"]
+x180 -> x324 
+x325[label="pos: 0\n neg: 1"]
+x182 -> x325 
+x326[label="pos: 2\n neg: 0"]
+x182 -> x326 
+x327[label="'occupation' <= 3.97 \n pos: 162\nneg: 124"]
+x183 -> x327 
+x328[label="'occupation' <= 7.82 \n pos: 42\nneg: 95"]
+x183 -> x328 
+x329[label="'race' <= 1.43 \n pos: 49\nneg: 19"]
+x184 -> x329 
+x330[label="'relationship' <= 3.02 \n pos: 193\nneg: 157"]
+x184 -> x330 
+x331[label="'occupation' <= 3.33 \n pos: 41\nneg: 1"]
+x185 -> x331 
+x332[label="'capital-loss' <= 1909.41 \n pos: 8\nneg: 5"]
+x185 -> x332 
+x333[label="pos: 0\n neg: 12"]
+x186 -> x333 
+x334[label="'capital-loss' <= 1945.66 \n pos: 17\nneg: 5"]
+x186 -> x334 
+x335[label="'native-country' <= 1.29 \n pos: 40\nneg: 7"]
+x187 -> x335 
+x336[label="'education-num' <= 14.60 \n pos: 285\nneg: 116"]
+x187 -> x336 
+x337[label="pos: 3\n neg: 0"]
+x189 -> x337 
+x338[label="pos: 0\n neg: 2"]
+x189 -> x338 
+x339[label="'capital-loss' <= 2015.75 \n pos: 10\nneg: 2"]
+x190 -> x339 
+x340[label="pos: 71\n neg: 0"]
+x190 -> x340 
+x341[label="'relationship' <= 2.71 \n pos: 19\nneg: 10"]
+x191 -> x341 
+x342[label="pos: 87\n neg: 0"]
+x191 -> x342 
+x343[label="pos: 96\n neg: 0"]
+x192 -> x343 
+x344[label="'age' <= 80.50 \n pos: 2\nneg: 2"]
+x192 -> x344 
+x345[label="'hours-per-week' <= 29.45 \n pos: 11\nneg: 4"]
+x193 -> x345 
+x346[label="'workclass' <= 2.98 \n pos: 3\nneg: 7"]
+x193 -> x346 
+x347[label="'workclass' <= 4.50 \n pos: 2\nneg: 3"]
+x194 -> x347 
+x348[label="pos: 9\n neg: 0"]
+x194 -> x348 
+x349[label="'marital-status' <= 2.35 \n pos: 3\nneg: 297"]
+x196 -> x349 
+x350[label="'marital-status' <= 4.99 \n pos: 4\nneg: 44"]
+x196 -> x350 
+x351[label="'hours-per-week' <= 35.16 \n pos: 8\nneg: 308"]
+x197 -> x351 
+x352[label="pos: 0\n neg: 50"]
+x197 -> x352 
+x353[label="pos: 0\n neg: 81"]
+x198 -> x353 
+x354[label="'occupation' <= 7.65 \n pos: 15\nneg: 141"]
+x198 -> x354 
+x355[label="'hours-per-week' <= 48.52 \n pos: 6\nneg: 79"]
+x199 -> x355 
+x356[label="'age' <= 31.72 \n pos: 3\nneg: 121"]
+x199 -> x356 
+x357[label="'age' <= 41.91 \n pos: 3\nneg: 64"]
+x200 -> x357 
+x358[label="'hours-per-week' <= 67.07 \n pos: 15\nneg: 48"]
+x200 -> x358 
+x359[label="pos: 0\n neg: 6"]
+x201 -> x359 
+x360[label="'workclass' <= 2.50 \n pos: 3\nneg: 1"]
+x201 -> x360 
+x361[label="'age' <= 51.20 \n pos: 4\nneg: 82"]
+x203 -> x361 
+x362[label="'education-num' <= 12.89 \n pos: 23\nneg: 128"]
+x203 -> x362 
+x363[label="'sex' <= 1.77 \n pos: 14\nneg: 57"]
+x204 -> x363 
+x364[label="'relationship' <= 3.76 \n pos: 31\nneg: 17"]
+x204 -> x364 
+x365[label="'hours-per-week' <= 37.50 \n pos: 4\nneg: 3"]
+x205 -> x365 
+x366[label="'workclass' <= 3.46 \n pos: 8\nneg: 30"]
+x205 -> x366 
+x367[label="pos: 0\n neg: 4"]
+x206 -> x367 
+x368[label="'education-num' <= 12.85 \n pos: 24\nneg: 6"]
+x206 -> x368 
+x369[label="'sex' <= 1.71 \n pos: 4\nneg: 36"]
+x207 -> x369 
+x370[label="'age' <= 36.70 \n pos: 2\nneg: 225"]
+x207 -> x370 
+x371[label="'native-country' <= 3.00 \n pos: 5\nneg: 85"]
+x208 -> x371 
+x372[label="'education-num' <= 12.60 \n pos: 5\nneg: 1"]
+x208 -> x372 
+x373[label="'relationship' <= 4.58 \n pos: 2\nneg: 80"]
+x209 -> x373 
+x374[label="'occupation' <= 8.52 \n pos: 9\nneg: 27"]
+x209 -> x374 
+x375[label="'marital-status' <= 3.52 \n pos: 10\nneg: 77"]
+x210 -> x375 
+x376[label="'workclass' <= 5.36 \n pos: 11\nneg: 11"]
+x210 -> x376 
+x377[label="'marital-status' <= 3.00 \n pos: 1\nneg: 3"]
+x211 -> x377 
+x378[label="pos: 4\n neg: 0"]
+x211 -> x378 
+x379[label="'occupation' <= 10.00 \n pos: 1\nneg: 12"]
+x215 -> x379 
+x380[label="'capital-gain' <= 4760.50 \n pos: 7\nneg: 2"]
+x215 -> x380 
+x381[label="pos: 0\n neg: 4"]
+x217 -> x381 
+x382[label="pos: 1\n neg: 0"]
+x217 -> x382 
+x383[label="'age' <= 38.67 \n pos: 14\nneg: 312"]
+x219 -> x383 
+x384[label="'native-country' <= 0.99 \n pos: 26\nneg: 224"]
+x219 -> x384 
+x385[label="'capital-loss' <= 1980.62 \n pos: 6\nneg: 4"]
+x220 -> x385 
+x386[label="pos: 0\n neg: 11"]
+x220 -> x386 
+x387[label="pos: 0\n neg: 10"]
+x221 -> x387 
+x388[label="'relationship' <= 2.96 \n pos: 24\nneg: 81"]
+x221 -> x388 
+x389[label="'native-country' <= 0.87 \n pos: 4\nneg: 63"]
+x222 -> x389 
+x390[label="pos: 1\n neg: 0"]
+x222 -> x390 
+x391[label="'age' <= 43.75 \n pos: 2\nneg: 2"]
+x224 -> x391 
+x392[label="pos: 0\n neg: 11"]
+x224 -> x392 
+x393[label="pos: 0\n neg: 33"]
+x225 -> x393 
+x394[label="'occupation' <= 5.88 \n pos: 4\nneg: 153"]
+x225 -> x394 
+x395[label="'capital-gain' <= 3472.12 \n pos: 1\nneg: 4"]
+x231 -> x395 
+x396[label="pos: 6\n neg: 0"]
+x231 -> x396 
+x397[label="'hours-per-week' <= 44.12 \n pos: 29\nneg: 325"]
+x233 -> x397 
+x398[label="'native-country' <= 2.32 \n pos: 39\nneg: 173"]
+x233 -> x398 
+x399[label="'workclass' <= 0.98 \n pos: 132\nneg: 480"]
+x234 -> x399 
+x400[label="'hours-per-week' <= 33.93 \n pos: 5\nneg: 74"]
+x234 -> x400 
+x401[label="'race' <= 1.25 \n pos: 204\nneg: 536"]
+x235 -> x401 
+x402[label="'capital-loss' <= 1836.95 \n pos: 29\nneg: 29"]
+x235 -> x402 
+x403[label="'native-country' <= 2.12 \n pos: 181\nneg: 262"]
+x236 -> x403 
+x404[label="'capital-loss' <= 1829.50 \n pos: 18\nneg: 12"]
+x236 -> x404 
+x405[label="'relationship' <= 2.17 \n pos: 33\nneg: 73"]
+x237 -> x405 
+x406[label="'hours-per-week' <= 23.74 \n pos: 14\nneg: 151"]
+x237 -> x406 
+x407[label="'education-num' <= 9.33 \n pos: 351\nneg: 611"]
+x238 -> x407 
+x408[label="'capital-loss' <= 1919.72 \n pos: 47\nneg: 14"]
+x238 -> x408 
+x409[label="pos: 0\n neg: 10"]
+x239 -> x409 
+x410[label="'capital-loss' <= 87.47 \n pos: 142\nneg: 148"]
+x239 -> x410 
+x411[label="'capital-loss' <= 322.76 \n pos: 98\nneg: 55"]
+x240 -> x411 
+x412[label="'capital-loss' <= 204.41 \n pos: 37\nneg: 38"]
+x240 -> x412 
+x413[label="'capital-gain' <= 3116.76 \n pos: 23\nneg: 21"]
+x242 -> x413 
+x414[label="pos: 0\n neg: 40"]
+x242 -> x414 
+x415[label="'capital-gain' <= 4797.52 \n pos: 31\nneg: 36"]
+x244 -> x415 
+x416[label="'relationship' <= 2.80 \n pos: 30\nneg: 15"]
+x244 -> x416 
+x417[label="'education-num' <= 11.57 \n pos: 25\nneg: 34"]
+x245 -> x417 
+x418[label="'hours-per-week' <= 38.41 \n pos: 24\nneg: 111"]
+x245 -> x418 
+x419[label="'age' <= 33.45 \n pos: 31\nneg: 47"]
+x246 -> x419 
+x420[label="'age' <= 31.24 \n pos: 15\nneg: 13"]
+x246 -> x420 
+x421[label="pos: 1\n neg: 0"]
+x248 -> x421 
+x422[label="pos: 0\n neg: 6"]
+x248 -> x422 
+x423[label="'education-num' <= 11.58 \n pos: 8\nneg: 21"]
+x249 -> x423 
+x424[label="'race' <= 1.54 \n pos: 64\nneg: 68"]
+x249 -> x424 
+x425[label="'native-country' <= 2.02 \n pos: 21\nneg: 26"]
+x250 -> x425 
+x426[label="'occupation' <= 4.57 \n pos: 25\nneg: 11"]
+x250 -> x426 
+x427[label="'age' <= 36.07 \n pos: 1\nneg: 14"]
+x253 -> x427 
+x428[label="pos: 1\n neg: 0"]
+x253 -> x428 
+x429[label="'capital-gain' <= 3928.93 \n pos: 7\nneg: 5"]
+x254 -> x429 
+x430[label="pos: 0\n neg: 5"]
+x254 -> x430 
+x431[label="'workclass' <= 0.72 \n pos: 148\nneg: 158"]
+x259 -> x431 
+x432[label="'race' <= 1.46 \n pos: 7\nneg: 27"]
+x259 -> x432 
+x433[label="'relationship' <= 2.96 \n pos: 135\nneg: 62"]
+x260 -> x433 
+x434[label="'race' <= 3.93 \n pos: 7\nneg: 7"]
+x260 -> x434 
+x435[label="'education-num' <= 13.30 \n pos: 371\nneg: 83"]
+x261 -> x435 
+x436[label="'capital-gain' <= 10.47 \n pos: 331\nneg: 168"]
+x261 -> x436 
+x437[label="'hours-per-week' <= 43.48 \n pos: 71\nneg: 67"]
+x262 -> x437 
+x438[label="'occupation' <= 8.76 \n pos: 9\nneg: 19"]
+x262 -> x438 
+x439[label="'occupation' <= 5.38 \n pos: 20\nneg: 1"]
+x263 -> x439 
+x440[label="'occupation' <= 5.12 \n pos: 4\nneg: 4"]
+x263 -> x440 
+x441[label="'relationship' <= 2.29 \n pos: 7\nneg: 1"]
+x265 -> x441 
+x442[label="pos: 143\n neg: 0"]
+x265 -> x442 
+x443[label="'hours-per-week' <= 58.83 \n pos: 9\nneg: 4"]
+x266 -> x443 
+x444[label="'age' <= 53.20 \n pos: 38\nneg: 2"]
+x266 -> x444 
+x445[label="'hours-per-week' <= 46.17 \n pos: 6\nneg: 4"]
+x267 -> x445 
+x446[label="'occupation' <= 3.05 \n pos: 10\nneg: 2"]
+x267 -> x446 
+x447[label="'capital-gain' <= 3853.70 \n pos: 10\nneg: 22"]
+x268 -> x447 
+x448[label="'hours-per-week' <= 53.54 \n pos: 12\nneg: 5"]
+x268 -> x448 
+x449[label="'age' <= 66.50 \n pos: 1\nneg: 3"]
+x269 -> x449 
+x450[label="pos: 3\n neg: 0"]
+x269 -> x450 
+x451[label="'age' <= 21.82 \n pos: 1\nneg: 683"]
+x272 -> x451 
+x452[label="pos: 0\n neg: 997"]
+x272 -> x452 
+x453[label="'education-num' <= 9.07 \n pos: 15\nneg: 567"]
+x274 -> x453 
+x454[label="'education-num' <= 7.78 \n pos: 1\nneg: 347"]
+x274 -> x454 
+x455[label="'occupation' <= 4.19 \n pos: 2\nneg: 85"]
+x275 -> x455 
+x456[label="'race' <= 1.42 \n pos: 6\nneg: 19"]
+x275 -> x456 
+x457[label="'hours-per-week' <= 63.90 \n pos: 2\nneg: 15"]
+x276 -> x457 
+x458[label="'relationship' <= 3.95 \n pos: 14\nneg: 671"]
+x276 -> x458 
+x459[label="'age' <= 55.22 \n pos: 1\nneg: 120"]
+x277 -> x459 
+x460[label="'sex' <= 1.74 \n pos: 4\nneg: 58"]
+x277 -> x460 
+x461[label="'sex' <= 1.53 \n pos: 19\nneg: 569"]
+x279 -> x461 
+x462[label="'occupation' <= 4.57 \n pos: 23\nneg: 272"]
+x279 -> x462 
+x463[label="'hours-per-week' <= 38.15 \n pos: 8\nneg: 700"]
+x280 -> x463 
+x464[label="'occupation' <= 9.74 \n pos: 4\nneg: 21"]
+x280 -> x464 
+x465[label="'occupation' <= 4.35 \n pos: 3\nneg: 156"]
+x281 -> x465 
+x466[label="'marital-status' <= 2.68 \n pos: 14\nneg: 149"]
+x281 -> x466 
+x467[label="'marital-status' <= 2.43 \n pos: 7\nneg: 4"]
+x282 -> x467 
+x468[label="'hours-per-week' <= 60.80 \n pos: 1\nneg: 10"]
+x282 -> x468 
+x469[label="'race' <= 1.19 \n pos: 32\nneg: 86"]
+x283 -> x469 
+x470[label="pos: 0\n neg: 10"]
+x283 -> x470 
+x471[label="'occupation' <= 3.45 \n pos: 3\nneg: 28"]
+x284 -> x471 
+x472[label="pos: 0\n neg: 20"]
+x284 -> x472 
+x473[label="'education-num' <= 11.76 \n pos: 1\nneg: 230"]
+x286 -> x473 
+x474[label="'marital-status' <= 2.87 \n pos: 17\nneg: 542"]
+x286 -> x474 
+x475[label="pos: 0\n neg: 169"]
+x287 -> x475 
+x476[label="'education-num' <= 11.67 \n pos: 3\nneg: 57"]
+x287 -> x476 
+x477[label="'age' <= 47.17 \n pos: 33\nneg: 222"]
+x288 -> x477 
+x478[label="'age' <= 48.16 \n pos: 8\nneg: 14"]
+x288 -> x478 
+x479[label="pos: 0\n neg: 25"]
+x289 -> x479 
+x480[label="'age' <= 45.68 \n pos: 4\nneg: 57"]
+x289 -> x480 
+x481[label="'occupation' <= 4.33 \n pos: 24\nneg: 47"]
+x292 -> x481 
+x482[label="'native-country' <= 5.31 \n pos: 20\nneg: 78"]
+x292 -> x482 
+x483[label="pos: 0\n neg: 31"]
+x293 -> x483 
+x484[label="'age' <= 43.75 \n pos: 2\nneg: 6"]
+x293 -> x484 
+x485[label="'workclass' <= 0.94 \n pos: 15\nneg: 52"]
+x294 -> x485 
+x486[label="pos: 0\n neg: 7"]
+x294 -> x486 
+x487[label="'hours-per-week' <= 50.01 \n pos: 8\nneg: 20"]
+x295 -> x487 
+x488[label="'education-num' <= 13.58 \n pos: 34\nneg: 24"]
+x295 -> x488 
+x489[label="'sex' <= 1.83 \n pos: 4\nneg: 89"]
+x299 -> x489 
+x490[label="'hours-per-week' <= 53.98 \n pos: 54\nneg: 220"]
+x299 -> x490 
+x491[label="'hours-per-week' <= 55.22 \n pos: 27\nneg: 51"]
+x300 -> x491 
+x492[label="pos: 0\n neg: 14"]
+x300 -> x492 
+x493[label="'hours-per-week' <= 35.70 \n pos: 1\nneg: 10"]
+x301 -> x493 
+x494[label="'relationship' <= 5.00 \n pos: 2\nneg: 1"]
+x301 -> x494 
+x495[label="'marital-status' <= 2.50 \n pos: 2\nneg: 4"]
+x302 -> x495 
+x496[label="pos: 4\n neg: 0"]
+x302 -> x496 
+x497[label="'hours-per-week' <= 33.50 \n pos: 1\nneg: 2"]
+x303 -> x497 
+x498[label="pos: 1\n neg: 0"]
+x303 -> x498 
+x499[label="'occupation' <= 3.21 \n pos: 9\nneg: 23"]
+x307 -> x499 
+x500[label="'workclass' <= 3.10 \n pos: 3\nneg: 15"]
+x307 -> x500 
+x501[label="'occupation' <= 7.53 \n pos: 8\nneg: 30"]
+x308 -> x501 
+x502[label="pos: 0\n neg: 29"]
+x308 -> x502 
+x503[label="pos: 4\n neg: 0"]
+x309 -> x503 
+x504[label="pos: 0\n neg: 1"]
+x309 -> x504 
+x505[label="'relationship' <= 1.95 \n pos: 1\nneg: 57"]
+x311 -> x505 
+x506[label="'hours-per-week' <= 37.67 \n pos: 5\nneg: 47"]
+x311 -> x506 
+x507[label="pos: 1\n neg: 0"]
+x312 -> x507 
+x508[label="pos: 0\n neg: 2"]
+x312 -> x508 
+x509[label="'age' <= 54.75 \n pos: 1\nneg: 4"]
+x314 -> x509 
+x510[label="pos: 1\n neg: 0"]
+x314 -> x510 
+x511[label="'race' <= 1.30 \n pos: 54\nneg: 251"]
+x315 -> x511 
+x512[label="'relationship' <= 2.77 \n pos: 51\nneg: 78"]
+x315 -> x512 
+x513[label="'native-country' <= 1.56 \n pos: 124\nneg: 196"]
+x316 -> x513 
+x514[label="'education-num' <= 9.59 \n pos: 9\nneg: 48"]
+x316 -> x514 
+x515[label="'occupation' <= 3.75 \n pos: 186\nneg: 240"]
+x317 -> x515 
+x516[label="'workclass' <= 3.82 \n pos: 94\nneg: 173"]
+x317 -> x516 
+x517[label="'age' <= 47.87 \n pos: 1\nneg: 19"]
+x318 -> x517 
+x518[label="'occupation' <= 4.50 \n pos: 3\nneg: 1"]
+x318 -> x518 
+x519[label="'education-num' <= 9.50 \n pos: 3\nneg: 6"]
+x319 -> x519 
+x520[label="'capital-loss' <= 1811.73 \n pos: 11\nneg: 3"]
+x319 -> x520 
+x521[label="pos: 0\n neg: 11"]
+x320 -> x521 
+x522[label="'occupation' <= 6.45 \n pos: 5\nneg: 4"]
+x320 -> x522 
+x523[label="pos: 21\n neg: 0"]
+x321 -> x523 
+x524[label="'capital-loss' <= 1989.50 \n pos: 12\nneg: 5"]
+x321 -> x524 
+x525[label="'age' <= 42.50 \n pos: 3\nneg: 1"]
+x322 -> x525 
+x526[label="'workclass' <= 2.95 \n pos: 1\nneg: 11"]
+x322 -> x526 
+x527[label="pos: 0\n neg: 17"]
+x323 -> x527 
+x528[label="'workclass' <= 4.00 \n pos: 5\nneg: 20"]
+x323 -> x528 
+x529[label="'education-num' <= 9.47 \n pos: 3\nneg: 13"]
+x324 -> x529 
+x530[label="'capital-gain' <= 4485.67 \n pos: 3\nneg: 1"]
+x324 -> x530 
+x531[label="'sex' <= 1.93 \n pos: 20\nneg: 37"]
+x327 -> x531 
+x532[label="'workclass' <= 2.48 \n pos: 142\nneg: 87"]
+x327 -> x532 
+x533[label="'race' <= 1.07 \n pos: 27\nneg: 41"]
+x328 -> x533 
+x534[label="'workclass' <= 2.17 \n pos: 15\nneg: 54"]
+x328 -> x534 
+x535[label="'workclass' <= 5.11 \n pos: 45\nneg: 16"]
+x329 -> x535 
+x536[label="'age' <= 31.38 \n pos: 4\nneg: 3"]
+x329 -> x536 
+x537[label="'age' <= 42.47 \n pos: 193\nneg: 154"]
+x330 -> x537 
+x538[label="pos: 0\n neg: 3"]
+x330 -> x538 
+x539[label="'workclass' <= 2.50 \n pos: 3\nneg: 1"]
+x331 -> x539 
+x540[label="pos: 38\n neg: 0"]
+x331 -> x540 
+x541[label="'capital-loss' <= 1800.60 \n pos: 2\nneg: 5"]
+x332 -> x541 
+x542[label="pos: 6\n neg: 0"]
+x332 -> x542 
+x543[label="'workclass' <= 4.46 \n pos: 14\nneg: 1"]
+x334 -> x543 
+x544[label="'age' <= 36.75 \n pos: 3\nneg: 4"]
+x334 -> x544 
+x545[label="'hours-per-week' <= 39.50 \n pos: 35\nneg: 7"]
+x335 -> x545 
+x546[label="pos: 5\n neg: 0"]
+x335 -> x546 
+x547[label="'age' <= 44.14 \n pos: 148\nneg: 75"]
+x336 -> x547 
+x548[label="'race' <= 1.15 \n pos: 137\nneg: 41"]
+x336 -> x548 
+x549[label="'age' <= 37.90 \n pos: 10\nneg: 1"]
+x339 -> x549 
+x550[label="pos: 0\n neg: 1"]
+x339 -> x550 
+x551[label="pos: 6\n neg: 0"]
+x341 -> x551 
+x552[label="'race' <= 1.08 \n pos: 13\nneg: 10"]
+x341 -> x552 
+x553[label="pos: 2\n neg: 0"]
+x344 -> x553 
+x554[label="pos: 0\n neg: 2"]
+x344 -> x554 
+x555[label="pos: 0\n neg: 3"]
+x345 -> x555 
+x556[label="'workclass' <= 5.00 \n pos: 11\nneg: 1"]
+x345 -> x556 
+x557[label="pos: 0\n neg: 6"]
+x346 -> x557 
+x558[label="'age' <= 43.17 \n pos: 3\nneg: 1"]
+x346 -> x558 
+x559[label="pos: 0\n neg: 3"]
+x347 -> x559 
+x560[label="pos: 2\n neg: 0"]
+x347 -> x560 
+x561[label="'workclass' <= 4.56 \n pos: 3\nneg: 91"]
+x349 -> x561 
+x562[label="pos: 0\n neg: 206"]
+x349 -> x562 
+x563[label="pos: 0\n neg: 20"]
+x350 -> x563 
+x564[label="'occupation' <= 7.60 \n pos: 4\nneg: 24"]
+x350 -> x564 
+x565[label="'marital-status' <= 4.08 \n pos: 1\nneg: 116"]
+x351 -> x565 
+x566[label="'hours-per-week' <= 39.83 \n pos: 7\nneg: 192"]
+x351 -> x566 
+x567[label="'occupation' <= 4.21 \n pos: 4\nneg: 105"]
+x354 -> x567 
+x568[label="'occupation' <= 11.12 \n pos: 11\nneg: 36"]
+x354 -> x568 
+x569[label="'relationship' <= 3.96 \n pos: 4\nneg: 27"]
+x355 -> x569 
+x570[label="'relationship' <= 5.25 \n pos: 2\nneg: 52"]
+x355 -> x570 
+x571[label="'education-num' <= 8.70 \n pos: 3\nneg: 50"]
+x356 -> x571 
+x572[label="pos: 0\n neg: 71"]
+x356 -> x572 
+x573[label="pos: 0\n neg: 50"]
+x357 -> x573 
+x574[label="'occupation' <= 3.79 \n pos: 3\nneg: 14"]
+x357 -> x574 
+x575[label="'capital-gain' <= 249.33 \n pos: 13\nneg: 23"]
+x358 -> x575 
+x576[label="'hours-per-week' <= 82.42 \n pos: 2\nneg: 25"]
+x358 -> x576 
+x577[label="pos: 3\n neg: 0"]
+x360 -> x577 
+x578[label="pos: 0\n neg: 1"]
+x360 -> x578 
+x579[label="pos: 0\n neg: 68"]
+x361 -> x579 
+x580[label="'marital-status' <= 3.68 \n pos: 4\nneg: 14"]
+x361 -> x580 
+x581[label="pos: 0\n neg: 29"]
+x362 -> x581 
+x582[label="'occupation' <= 5.92 \n pos: 23\nneg: 99"]
+x362 -> x582 
+x583[label="pos: 0\n neg: 26"]
+x363 -> x583 
+x584[label="'race' <= 1.41 \n pos: 14\nneg: 31"]
+x363 -> x584 
+x585[label="pos: 0\n neg: 4"]
+x364 -> x585 
+x586[label="'workclass' <= 2.71 \n pos: 31\nneg: 13"]
+x364 -> x586 
+x587[label="pos: 4\n neg: 0"]
+x365 -> x587 
+x588[label="pos: 0\n neg: 3"]
+x365 -> x588 
+x589[label="'hours-per-week' <= 21.50 \n pos: 1\nneg: 14"]
+x366 -> x589 
+x590[label="'age' <= 43.16 \n pos: 7\nneg: 16"]
+x366 -> x590 
+x591[label="'age' <= 35.25 \n pos: 3\nneg: 2"]
+x368 -> x591 
+x592[label="'workclass' <= 2.51 \n pos: 21\nneg: 4"]
+x368 -> x592 
+x593[label="pos: 0\n neg: 21"]
+x369 -> x593 
+x594[label="'race' <= 2.63 \n pos: 4\nneg: 15"]
+x369 -> x594 
+x595[label="pos: 0\n neg: 167"]
+x370 -> x595 
+x596[label="'age' <= 40.97 \n pos: 2\nneg: 58"]
+x370 -> x596 
+x597[label="'age' <= 34.07 \n pos: 4\nneg: 85"]
+x371 -> x597 
+x598[label="pos: 1\n neg: 0"]
+x371 -> x598 
+x599[label="pos: 0\n neg: 1"]
+x372 -> x599 
+x600[label="pos: 5\n neg: 0"]
+x372 -> x600 
+x601[label="'workclass' <= 5.18 \n pos: 2\nneg: 31"]
+x373 -> x601 
+x602[label="pos: 0\n neg: 49"]
+x373 -> x602 
+x603[label="'education-num' <= 14.24 \n pos: 3\nneg: 20"]
+x374 -> x603 
+x604[label="'workclass' <= 5.43 \n pos: 6\nneg: 7"]
+x374 -> x604 
+x605[label="'age' <= 50.88 \n pos: 8\nneg: 42"]
+x375 -> x605 
+x606[label="'education-num' <= 13.21 \n pos: 2\nneg: 35"]
+x375 -> x606 
+x607[label="'relationship' <= 4.82 \n pos: 3\nneg: 11"]
+x376 -> x607 
+x608[label="pos: 8\n neg: 0"]
+x376 -> x608 
+x609[label="pos: 0\n neg: 3"]
+x377 -> x609 
+x610[label="pos: 1\n neg: 0"]
+x377 -> x610 
+x611[label="pos: 0\n neg: 10"]
+x379 -> x611 
+x612[label="'age' <= 37.50 \n pos: 1\nneg: 2"]
+x379 -> x612 
+x613[label="pos: 0\n neg: 2"]
+x380 -> x613 
+x614[label="pos: 7\n neg: 0"]
+x380 -> x614 
+x615[label="pos: 4\n neg: 209"]
+x383 -> x615 
+x616[label="pos: 10\n neg: 103"]
+x383 -> x616 
+x617[label="pos: 3\n neg: 1"]
+x384 -> x617 
+x618[label="pos: 23\n neg: 223"]
+x384 -> x618 
+x619[label="pos: 6\n neg: 1"]
+x385 -> x619 
+x620[label="pos: 0\n neg: 3"]
+x385 -> x620 
+x621[label="pos: 2\n neg: 0"]
+x388 -> x621 
+x622[label="pos: 22\n neg: 81"]
+x388 -> x622 
+x623[label="pos: 1\n neg: 1"]
+x389 -> x623 
+x624[label="pos: 3\n neg: 62"]
+x389 -> x624 
+x625[label="pos: 2\n neg: 0"]
+x391 -> x625 
+x626[label="pos: 0\n neg: 2"]
+x391 -> x626 
+x627[label="pos: 1\n neg: 71"]
+x394 -> x627 
+x628[label="pos: 3\n neg: 82"]
+x394 -> x628 
+x629[label="pos: 1\n neg: 1"]
+x395 -> x629 
+x630[label="pos: 0\n neg: 3"]
+x395 -> x630 
+x631[label="pos: 15\n neg: 229"]
+x397 -> x631 
+x632[label="pos: 14\n neg: 96"]
+x397 -> x632 
+x633[label="pos: 39\n neg: 154"]
+x398 -> x633 
+x634[label="pos: 0\n neg: 19"]
+x398 -> x634 
+x635[label="pos: 0\n neg: 22"]
+x399 -> x635 
+x636[label="pos: 132\n neg: 458"]
+x399 -> x636 
+x637[label="pos: 2\n neg: 5"]
+x400 -> x637 
+x638[label="pos: 3\n neg: 69"]
+x400 -> x638 
+x639[label="pos: 197\n neg: 473"]
+x401 -> x639 
+x640[label="pos: 7\n neg: 63"]
+x401 -> x640 
+x641[label="pos: 1\n neg: 18"]
+x402 -> x641 
+x642[label="pos: 28\n neg: 11"]
+x402 -> x642 
+x643[label="pos: 174\n neg: 239"]
+x403 -> x643 
+x644[label="pos: 7\n neg: 23"]
+x403 -> x644 
+x645[label="pos: 1\n neg: 7"]
+x404 -> x645 
+x646[label="pos: 17\n neg: 5"]
+x404 -> x646 
+x647[label="pos: 20\n neg: 20"]
+x405 -> x647 
+x648[label="pos: 13\n neg: 53"]
+x405 -> x648 
+x649[label="pos: 3\n neg: 100"]
+x406 -> x649 
+x650[label="pos: 11\n neg: 51"]
+x406 -> x650 
+x651[label="pos: 218\n neg: 439"]
+x407 -> x651 
+x652[label="pos: 133\n neg: 172"]
+x407 -> x652 
+x653[label="pos: 42\n neg: 9"]
+x408 -> x653 
+x654[label="pos: 5\n neg: 5"]
+x408 -> x654 
+x655[label="pos: 131\n neg: 146"]
+x410 -> x655 
+x656[label="pos: 11\n neg: 2"]
+x410 -> x656 
+x657[label="pos: 88\n neg: 40"]
+x411 -> x657 
+x658[label="pos: 10\n neg: 15"]
+x411 -> x658 
+x659[label="pos: 29\n neg: 38"]
+x412 -> x659 
+x660[label="pos: 8\n neg: 0"]
+x412 -> x660 
+x661[label="pos: 23\n neg: 4"]
+x413 -> x661 
+x662[label="pos: 0\n neg: 17"]
+x413 -> x662 
+x663[label="pos: 7\n neg: 19"]
+x415 -> x663 
+x664[label="pos: 24\n neg: 17"]
+x415 -> x664 
+x665[label="pos: 6\n neg: 0"]
+x416 -> x665 
+x666[label="pos: 24\n neg: 15"]
+x416 -> x666 
+x667[label="pos: 15\n neg: 9"]
+x417 -> x667 
+x668[label="pos: 10\n neg: 25"]
+x417 -> x668 
+x669[label="pos: 1\n neg: 20"]
+x418 -> x669 
+x670[label="pos: 23\n neg: 91"]
+x418 -> x670 
+x671[label="pos: 10\n neg: 32"]
+x419 -> x671 
+x672[label="pos: 21\n neg: 15"]
+x419 -> x672 
+x673[label="pos: 4\n neg: 9"]
+x420 -> x673 
+x674[label="pos: 11\n neg: 4"]
+x420 -> x674 
+x675[label="pos: 1\n neg: 15"]
+x423 -> x675 
+x676[label="pos: 7\n neg: 6"]
+x423 -> x676 
+x677[label="pos: 56\n neg: 52"]
+x424 -> x677 
+x678[label="pos: 8\n neg: 16"]
+x424 -> x678 
+x679[label="pos: 18\n neg: 26"]
+x425 -> x679 
+x680[label="pos: 3\n neg: 0"]
+x425 -> x680 
+x681[label="pos: 9\n neg: 7"]
+x426 -> x681 
+x682[label="pos: 16\n neg: 4"]
+x426 -> x682 
+x683[label="pos: 1\n neg: 6"]
+x427 -> x683 
+x684[label="pos: 0\n neg: 8"]
+x427 -> x684 
+x685[label="pos: 4\n neg: 0"]
+x429 -> x685 
+x686[label="pos: 3\n neg: 5"]
+x429 -> x686 
+x687[label="pos: 31\n neg: 56"]
+x431 -> x687 
+x688[label="pos: 117\n neg: 102"]
+x431 -> x688 
+x689[label="pos: 6\n neg: 10"]
+x432 -> x689 
+x690[label="pos: 1\n neg: 17"]
+x432 -> x690 
+x691[label="pos: 6\n neg: 1"]
+x433 -> x691 
+x692[label="pos: 129\n neg: 61"]
+x433 -> x692 
+x693[label="pos: 5\n neg: 0"]
+x434 -> x693 
+x694[label="pos: 2\n neg: 7"]
+x434 -> x694 
+x695[label="pos: 257\n neg: 69"]
+x435 -> x695 
+x696[label="pos: 114\n neg: 14"]
+x435 -> x696 
+x697[label="pos: 331\n neg: 165"]
+x436 -> x697 
+x698[label="pos: 0\n neg: 3"]
+x436 -> x698 
+x699[label="pos: 40\n neg: 47"]
+x437 -> x699 
+x700[label="pos: 31\n neg: 20"]
+x437 -> x700 
+x701[label="pos: 0\n neg: 8"]
+x438 -> x701 
+x702[label="pos: 9\n neg: 11"]
+x438 -> x702 
+x703[label="pos: 19\n neg: 0"]
+x439 -> x703 
+x704[label="pos: 1\n neg: 1"]
+x439 -> x704 
+x705[label="pos: 1\n neg: 4"]
+x440 -> x705 
+x706[label="pos: 3\n neg: 0"]
+x440 -> x706 
+x707[label="pos: 5\n neg: 0"]
+x441 -> x707 
+x708[label="pos: 2\n neg: 1"]
+x441 -> x708 
+x709[label="pos: 3\n neg: 4"]
+x443 -> x709 
+x710[label="pos: 6\n neg: 0"]
+x443 -> x710 
+x711[label="pos: 35\n neg: 0"]
+x444 -> x711 
+x712[label="pos: 3\n neg: 2"]
+x444 -> x712 
+x713[label="pos: 5\n neg: 1"]
+x445 -> x713 
+x714[label="pos: 1\n neg: 3"]
+x445 -> x714 
+x715[label="pos: 7\n neg: 0"]
+x446 -> x715 
+x716[label="pos: 3\n neg: 2"]
+x446 -> x716 
+x717[label="pos: 7\n neg: 8"]
+x447 -> x717 
+x718[label="pos: 3\n neg: 14"]
+x447 -> x718 
+x719[label="pos: 3\n neg: 5"]
+x448 -> x719 
+x720[label="pos: 9\n neg: 0"]
+x448 -> x720 
+x721[label="pos: 0\n neg: 3"]
+x449 -> x721 
+x722[label="pos: 1\n neg: 0"]
+x449 -> x722 
+x723[label="pos: 0\n neg: 406"]
+x451 -> x723 
+x724[label="pos: 1\n neg: 277"]
+x451 -> x724 
+x725[label="pos: 4\n neg: 436"]
+x453 -> x725 
+x726[label="pos: 11\n neg: 131"]
+x453 -> x726 
+x727[label="pos: 1\n neg: 73"]
+x454 -> x727 
+x728[label="pos: 0\n neg: 274"]
+x454 -> x728 
+x729[label="pos: 2\n neg: 45"]
+x455 -> x729 
+x730[label="pos: 0\n neg: 40"]
+x455 -> x730 
+x731[label="pos: 6\n neg: 13"]
+x456 -> x731 
+x732[label="pos: 0\n neg: 6"]
+x456 -> x732 
+x733[label="pos: 0\n neg: 15"]
+x457 -> x733 
+x734[label="pos: 2\n neg: 0"]
+x457 -> x734 
+x735[label="pos: 0\n neg: 193"]
+x458 -> x735 
+x736[label="pos: 14\n neg: 478"]
+x458 -> x736 
+x737[label="pos: 0\n neg: 62"]
+x459 -> x737 
+x738[label="pos: 1\n neg: 58"]
+x459 -> x738 
+x739[label="pos: 0\n neg: 30"]
+x460 -> x739 
+x740[label="pos: 4\n neg: 28"]
+x460 -> x740 
+x741[label="pos: 6\n neg: 360"]
+x461 -> x741 
+x742[label="pos: 13\n neg: 209"]
+x461 -> x742 
+x743[label="pos: 7\n neg: 151"]
+x462 -> x743 
+x744[label="pos: 16\n neg: 121"]
+x462 -> x744 
+x745[label="pos: 0\n neg: 194"]
+x463 -> x745 
+x746[label="pos: 8\n neg: 506"]
+x463 -> x746 
+x747[label="pos: 0\n neg: 21"]
+x464 -> x747 
+x748[label="pos: 4\n neg: 0"]
+x464 -> x748 
+x749[label="pos: 3\n neg: 42"]
+x465 -> x749 
+x750[label="pos: 0\n neg: 114"]
+x465 -> x750 
+x751[label="pos: 11\n neg: 72"]
+x466 -> x751 
+x752[label="pos: 3\n neg: 77"]
+x466 -> x752 
+x753[label="pos: 1\n neg: 4"]
+x467 -> x753 
+x754[label="pos: 6\n neg: 0"]
+x467 -> x754 
+x755[label="pos: 0\n neg: 10"]
+x468 -> x755 
+x756[label="pos: 1\n neg: 0"]
+x468 -> x756 
+x757[label="pos: 32\n neg: 78"]
+x469 -> x757 
+x758[label="pos: 0\n neg: 8"]
+x469 -> x758 
+x759[label="pos: 0\n neg: 18"]
+x471 -> x759 
+x760[label="pos: 3\n neg: 10"]
+x471 -> x760 
+x761[label="pos: 1\n neg: 33"]
+x473 -> x761 
+x762[label="pos: 0\n neg: 197"]
+x473 -> x762 
+x763[label="pos: 5\n neg: 78"]
+x474 -> x763 
+x764[label="pos: 12\n neg: 464"]
+x474 -> x764 
+x765[label="pos: 0\n neg: 38"]
+x476 -> x765 
+x766[label="pos: 3\n neg: 19"]
+x476 -> x766 
+x767[label="pos: 23\n neg: 122"]
+x477 -> x767 
+x768[label="pos: 10\n neg: 100"]
+x477 -> x768 
+x769[label="pos: 2\n neg: 12"]
+x478 -> x769 
+x770[label="pos: 6\n neg: 2"]
+x478 -> x770 
+x771[label="pos: 0\n neg: 42"]
+x480 -> x771 
+x772[label="pos: 4\n neg: 15"]
+x480 -> x772 
+x773[label="pos: 1\n neg: 24"]
+x481 -> x773 
+x774[label="pos: 23\n neg: 23"]
+x481 -> x774 
+x775[label="pos: 12\n neg: 73"]
+x482 -> x775 
+x776[label="pos: 8\n neg: 5"]
+x482 -> x776 
+x777[label="pos: 0\n neg: 4"]
+x484 -> x777 
+x778[label="pos: 2\n neg: 2"]
+x484 -> x778 
+x779[label="pos: 0\n neg: 6"]
+x485 -> x779 
+x780[label="pos: 15\n neg: 46"]
+x485 -> x780 
+x781[label="pos: 8\n neg: 15"]
+x487 -> x781 
+x782[label="pos: 0\n neg: 5"]
+x487 -> x782 
+x783[label="pos: 28\n neg: 13"]
+x488 -> x783 
+x784[label="pos: 6\n neg: 11"]
+x488 -> x784 
+x785[label="pos: 0\n neg: 31"]
+x489 -> x785 
+x786[label="pos: 4\n neg: 58"]
+x489 -> x786 
+x787[label="pos: 29\n neg: 162"]
+x490 -> x787 
+x788[label="pos: 25\n neg: 58"]
+x490 -> x788 
+x789[label="pos: 23\n neg: 26"]
+x491 -> x789 
+x790[label="pos: 4\n neg: 25"]
+x491 -> x790 
+x791[label="pos: 1\n neg: 2"]
+x493 -> x791 
+x792[label="pos: 0\n neg: 8"]
+x493 -> x792 
+x793[label="pos: 2\n neg: 0"]
+x494 -> x793 
+x794[label="pos: 0\n neg: 1"]
+x494 -> x794 
+x795[label="pos: 2\n neg: 0"]
+x495 -> x795 
+x796[label="pos: 0\n neg: 4"]
+x495 -> x796 
+x797[label="pos: 1\n neg: 0"]
+x497 -> x797 
+x798[label="pos: 0\n neg: 2"]
+x497 -> x798 
+x799[label="pos: 3\n neg: 18"]
+x499 -> x799 
+x800[label="pos: 6\n neg: 5"]
+x499 -> x800 
+x801[label="pos: 1\n neg: 11"]
+x500 -> x801 
+x802[label="pos: 2\n neg: 4"]
+x500 -> x802 
+x803[label="pos: 1\n neg: 17"]
+x501 -> x803 
+x804[label="pos: 7\n neg: 13"]
+x501 -> x804 
+x805[label="pos: 1\n neg: 5"]
+x505 -> x805 
+x806[label="pos: 0\n neg: 52"]
+x505 -> x806 
+x807[label="pos: 0\n neg: 24"]
+x506 -> x807 
+x808[label="pos: 5\n neg: 23"]
+x506 -> x808 
+x809[label="pos: 0\n neg: 4"]
+x509 -> x809 
+x810[label="pos: 1\n neg: 0"]
+x509 -> x810 
+x811[label="pos: 45\n neg: 242"]
+x511 -> x811 
+x812[label="pos: 9\n neg: 9"]
+x511 -> x812 
+x813[label="pos: 3\n neg: 13"]
+x512 -> x813 
+x814[label="pos: 48\n neg: 65"]
+x512 -> x814 
+x815[label="pos: 115\n neg: 195"]
+x513 -> x815 
+x816[label="pos: 9\n neg: 1"]
+x513 -> x816 
+x817[label="pos: 2\n neg: 29"]
+x514 -> x817 
+x818[label="pos: 7\n neg: 19"]
+x514 -> x818 
+x819[label="pos: 59\n neg: 105"]
+x515 -> x819 
+x820[label="pos: 127\n neg: 135"]
+x515 -> x820 
+x821[label="pos: 25\n neg: 92"]
+x516 -> x821 
+x822[label="pos: 69\n neg: 81"]
+x516 -> x822 
+x823[label="pos: 1\n neg: 3"]
+x517 -> x823 
+x824[label="pos: 0\n neg: 16"]
+x517 -> x824 
+x825[label="pos: 3\n neg: 0"]
+x518 -> x825 
+x826[label="pos: 0\n neg: 1"]
+x518 -> x826 
+x827[label="pos: 0\n neg: 6"]
+x519 -> x827 
+x828[label="pos: 3\n neg: 0"]
+x519 -> x828 
+x829[label="pos: 0\n neg: 3"]
+x520 -> x829 
+x830[label="pos: 11\n neg: 0"]
+x520 -> x830 
+x831[label="pos: 4\n neg: 0"]
+x522 -> x831 
+x832[label="pos: 1\n neg: 4"]
+x522 -> x832 
+x833[label="pos: 12\n neg: 0"]
+x524 -> x833 
+x834[label="pos: 0\n neg: 5"]
+x524 -> x834 
+x835[label="pos: 0\n neg: 1"]
+x525 -> x835 
+x836[label="pos: 3\n neg: 0"]
+x525 -> x836 
+x837[label="pos: 1\n neg: 3"]
+x526 -> x837 
+x838[label="pos: 0\n neg: 8"]
+x526 -> x838 
+x839[label="pos: 1\n neg: 11"]
+x528 -> x839 
+x840[label="pos: 4\n neg: 9"]
+x528 -> x840 
+x841[label="pos: 2\n neg: 5"]
+x529 -> x841 
+x842[label="pos: 1\n neg: 8"]
+x529 -> x842 
+x843[label="pos: 3\n neg: 0"]
+x530 -> x843 
+x844[label="pos: 0\n neg: 1"]
+x530 -> x844 
+x845[label="pos: 0\n neg: 5"]
+x531 -> x845 
+x846[label="pos: 20\n neg: 32"]
+x531 -> x846 
+x847[label="pos: 62\n neg: 53"]
+x532 -> x847 
+x848[label="pos: 80\n neg: 34"]
+x532 -> x848 
+x849[label="pos: 26\n neg: 41"]
+x533 -> x849 
+x850[label="pos: 1\n neg: 0"]
+x533 -> x850 
+x851[label="pos: 11\n neg: 50"]
+x534 -> x851 
+x852[label="pos: 4\n neg: 4"]
+x534 -> x852 
+x853[label="pos: 40\n neg: 12"]
+x535 -> x853 
+x854[label="pos: 5\n neg: 4"]
+x535 -> x854 
+x855[label="pos: 1\n neg: 3"]
+x536 -> x855 
+x856[label="pos: 3\n neg: 0"]
+x536 -> x856 
+x857[label="pos: 88\n neg: 86"]
+x537 -> x857 
+x858[label="pos: 105\n neg: 68"]
+x537 -> x858 
+x859[label="pos: 3\n neg: 0"]
+x539 -> x859 
+x860[label="pos: 0\n neg: 1"]
+x539 -> x860 
+x861[label="pos: 0\n neg: 5"]
+x541 -> x861 
+x862[label="pos: 2\n neg: 0"]
+x541 -> x862 
+x863[label="pos: 1\n neg: 1"]
+x543 -> x863 
+x864[label="pos: 13\n neg: 0"]
+x543 -> x864 
+x865[label="pos: 0\n neg: 4"]
+x544 -> x865 
+x866[label="pos: 3\n neg: 0"]
+x544 -> x866 
+x867[label="pos: 13\n neg: 1"]
+x545 -> x867 
+x868[label="pos: 22\n neg: 6"]
+x545 -> x868 
+x869[label="pos: 61\n neg: 51"]
+x547 -> x869 
+x870[label="pos: 87\n neg: 24"]
+x547 -> x870 
+x871[label="pos: 126\n neg: 34"]
+x548 -> x871 
+x872[label="pos: 11\n neg: 7"]
+x548 -> x872 
+x873[label="pos: 0\n neg: 1"]
+x549 -> x873 
+x874[label="pos: 10\n neg: 0"]
+x549 -> x874 
+x875[label="pos: 11\n neg: 10"]
+x552 -> x875 
+x876[label="pos: 2\n neg: 0"]
+x552 -> x876 
+x877[label="pos: 10\n neg: 0"]
+x556 -> x877 
+x878[label="pos: 1\n neg: 1"]
+x556 -> x878 
+x879[label="pos: 2\n neg: 0"]
+x558 -> x879 
+x880[label="pos: 1\n neg: 1"]
+x558 -> x880 
+x881[label="pos: 0\n neg: 56"]
+x561 -> x881 
+x882[label="pos: 3\n neg: 35"]
+x561 -> x882 
+x883[label="pos: 1\n neg: 19"]
+x564 -> x883 
+x884[label="pos: 3\n neg: 5"]
+x564 -> x884 
+x885[label="pos: 0\n neg: 97"]
+x565 -> x885 
+x886[label="pos: 1\n neg: 19"]
+x565 -> x886 
+x887[label="pos: 0\n neg: 32"]
+x566 -> x887 
+x888[label="pos: 7\n neg: 160"]
+x566 -> x888 
+x889[label="pos: 0\n neg: 81"]
+x567 -> x889 
+x890[label="pos: 4\n neg: 24"]
+x567 -> x890 
+x891[label="pos: 2\n neg: 29"]
+x568 -> x891 
+x892[label="pos: 9\n neg: 7"]
+x568 -> x892 
+x893[label="pos: 2\n neg: 1"]
+x569 -> x893 
+x894[label="pos: 2\n neg: 26"]
+x569 -> x894 
+x895[label="pos: 0\n neg: 33"]
+x570 -> x895 
+x896[label="pos: 2\n neg: 19"]
+x570 -> x896 
+x897[label="pos: 2\n neg: 3"]
+x571 -> x897 
+x898[label="pos: 1\n neg: 47"]
+x571 -> x898 
+x899[label="pos: 3\n neg: 4"]
+x574 -> x899 
+x900[label="pos: 0\n neg: 10"]
+x574 -> x900 
+x901[label="pos: 13\n neg: 18"]
+x575 -> x901 
+x902[label="pos: 0\n neg: 5"]
+x575 -> x902 
+x903[label="pos: 0\n neg: 23"]
+x576 -> x903 
+x904[label="pos: 2\n neg: 2"]
+x576 -> x904 
+x905[label="pos: 0\n neg: 11"]
+x580 -> x905 
+x906[label="pos: 4\n neg: 3"]
+x580 -> x906 
+x907[label="pos: 15\n neg: 47"]
+x582 -> x907 
+x908[label="pos: 8\n neg: 52"]
+x582 -> x908 
+x909[label="pos: 8\n neg: 28"]
+x584 -> x909 
+x910[label="pos: 6\n neg: 3"]
+x584 -> x910 
+x911[label="pos: 12\n neg: 10"]
+x586 -> x911 
+x912[label="pos: 19\n neg: 3"]
+x586 -> x912 
+x913[label="pos: 1\n neg: 0"]
+x589 -> x913 
+x914[label="pos: 0\n neg: 14"]
+x589 -> x914 
+x915[label="pos: 1\n neg: 9"]
+x590 -> x915 
+x916[label="pos: 6\n neg: 7"]
+x590 -> x916 
+x917[label="pos: 3\n neg: 0"]
+x591 -> x917 
+x918[label="pos: 0\n neg: 2"]
+x591 -> x918 
+x919[label="pos: 9\n neg: 3"]
+x592 -> x919 
+x920[label="pos: 12\n neg: 1"]
+x592 -> x920 
+x921[label="pos: 1\n neg: 14"]
+x594 -> x921 
+x922[label="pos: 3\n neg: 1"]
+x594 -> x922 
+x923[label="pos: 0\n neg: 32"]
+x596 -> x923 
+x924[label="pos: 2\n neg: 26"]
+x596 -> x924 
+x925[label="pos: 1\n neg: 63"]
+x597 -> x925 
+x926[label="pos: 3\n neg: 22"]
+x597 -> x926 
+x927[label="pos: 2\n neg: 20"]
+x601 -> x927 
+x928[label="pos: 0\n neg: 11"]
+x601 -> x928 
+x929[label="pos: 1\n neg: 19"]
+x603 -> x929 
+x930[label="pos: 2\n neg: 1"]
+x603 -> x930 
+x931[label="pos: 6\n neg: 1"]
+x604 -> x931 
+x932[label="pos: 0\n neg: 6"]
+x604 -> x932 
+x933[label="pos: 1\n neg: 29"]
+x605 -> x933 
+x934[label="pos: 7\n neg: 13"]
+x605 -> x934 
+x935[label="pos: 2\n neg: 17"]
+x606 -> x935 
+x936[label="pos: 0\n neg: 18"]
+x606 -> x936 
+x937[label="pos: 3\n neg: 2"]
+x607 -> x937 
+x938[label="pos: 0\n neg: 9"]
+x607 -> x938 
+x939[label="pos: 0\n neg: 2"]
+x612 -> x939 
+x940[label="pos: 1\n neg: 0"]
+x612 -> x940 
 
 }

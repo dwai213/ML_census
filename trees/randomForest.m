@@ -2,7 +2,7 @@
 %% Load data
 clear all, clc, close all
 cd /Users/dwai/Documents/ML_census/
-load Train_data.mat
+load Train_data_2.mat
 cd /Users/dwai/Documents/ML_census/trees/
 
 %loaded a priori
@@ -30,7 +30,7 @@ tree_data = train_data(:,subset);
 clc
 tic
 %num trees, # features for splits, depth limit
-trainedForest = RandomForest(10,4,10,feature_vector);
+trainedForest = RandomForest(25,4,10,feature_vector);
 forest = trainedForest.train(tree_data,train_labels');
 trees = trainedForest.Trees
 toc
