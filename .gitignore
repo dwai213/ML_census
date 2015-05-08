@@ -2,3 +2,5 @@ adult/
 *.m~
 .DS_STORE
 *.pdf
+*.png
+*.dot
