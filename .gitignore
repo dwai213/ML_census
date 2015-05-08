@@ -1,3 +1,4 @@
 adult/
 *.m~
 .DS_STORE
+*.pdf

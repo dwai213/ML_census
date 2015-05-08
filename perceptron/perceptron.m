@@ -26,7 +26,6 @@ hasConverged = 0;
 subset = [1:4 6:14];
 [N,d] = size(train_data(:,subset));
 percept_data = [train_data(:,subset) ones(N,1)];
-i = 0;
 
 H = 10; %error array history
 err_hist = zeros(1,H);
@@ -45,7 +44,7 @@ while ~hasConverged
   p = percept_data*th;
   p(p >= 0) = 1; p(p < 0) = -1;
   err_hist(e_ind) = errorRate(p,train_label);
-  if (abs(mean(diff(err_hist))) <= tol) && i > N
+  if (abs(mean(diff(err_hist))) <= tol) && i > 500
     hasConverged = 1;
   end
   

@@ -1,0 +1,67 @@
+digraph d {
+nodesep=0.1
+node [color=Blue,fontname=Arial,shape=box]
+edge [color=Turquoise, style=dashed]
+x0[label="'marital-status' <= 1.81 \n pos: 6671\nneg: 20890"]
+x1[label="'education-num' <= 10.43 \n pos: 5686\nneg: 6971"]
+x0 -> x1 
+x2[label="'capital-gain' <= 3148.88 \n pos: 985\nneg: 13919"]
+x0 -> x2 
+x3[label="'education-num' <= 8.77 \n pos: 2475\nneg: 5413"]
+x1 -> x3 
+x4[label="'capital-gain' <= 2496.43 \n pos: 3211\nneg: 1558"]
+x1 -> x4 
+x5[label="'education-num' <= 10.87 \n pos: 692\nneg: 13713"]
+x2 -> x5 
+x6[label="'capital-gain' <= 13031.72 \n pos: 293\nneg: 206"]
+x2 -> x6 
+x7[label="'capital-gain' <= 1162.02 \n pos: 170\nneg: 1269"]
+x3 -> x7 
+x8[label="'capital-gain' <= 1296.83 \n pos: 2305\nneg: 4144"]
+x3 -> x8 
+x9[label="'capital-loss' <= 181.90 \n pos: 2489\nneg: 1482"]
+x4 -> x9 
+x10[label="'capital-gain' <= 12894.15 \n pos: 722\nneg: 76"]
+x4 -> x10 
+x11[label="'hours-per-week' <= 41.41 \n pos: 232\nneg: 10332"]
+x5 -> x11 
+x12[label="'hours-per-week' <= 43.67 \n pos: 460\nneg: 3381"]
+x5 -> x12 
+x13[label="'capital-gain' <= 6478.79 \n pos: 130\nneg: 202"]
+x6 -> x13 
+x14[label="'capital-gain' <= 32444.13 \n pos: 163\nneg: 4"]
+x6 -> x14 
+x15[label="pos: 134\n neg: 1194"]
+x7 -> x15 
+x16[label="pos: 36\n neg: 75"]
+x7 -> x16 
+x17[label="pos: 1905\n neg: 3904"]
+x8 -> x17 
+x18[label="pos: 400\n neg: 240"]
+x8 -> x18 
+x19[label="pos: 2119\n neg: 1425"]
+x9 -> x19 
+x20[label="pos: 370\n neg: 57"]
+x9 -> x20 
+x21[label="pos: 376\n neg: 75"]
+x10 -> x21 
+x22[label="pos: 346\n neg: 1"]
+x10 -> x22 
+x23[label="pos: 106\n neg: 8641"]
+x11 -> x23 
+x24[label="pos: 126\n neg: 1691"]
+x11 -> x24 
+x25[label="pos: 192\n neg: 2515"]
+x12 -> x25 
+x26[label="pos: 268\n neg: 866"]
+x12 -> x26 
+x27[label="pos: 32\n neg: 161"]
+x13 -> x27 
+x28[label="pos: 98\n neg: 41"]
+x13 -> x28 
+x29[label="pos: 138\n neg: 0"]
+x14 -> x29 
+x30[label="pos: 25\n neg: 4"]
+x14 -> x30 
+
+}
